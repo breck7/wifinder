@@ -24,26 +24,6 @@ uploadParser
  float sortIndex 1.02
  boolean isMeasureRequired true
 
-pingParser
- description What is the ping?
- extends abstractFloatMeasureParser
- float sortIndex 1.03
- boolean isMeasureRequired true
-
-serverParser
- extends abstractStringMeasureParser
- float sortIndex 1.1
-
-
-
-ispParser
- extends abstractStringMeasureParser
- float sortIndex 1.6
-
-ipAddressParser
- extends abstractStringMeasureParser
- float sortIndex 1.7
-
 userParser
  description Who tested it?
  extends abstractStringMeasureParser
