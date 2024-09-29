@@ -4,11 +4,12 @@ header.scroll
 
 data.csv
  select name address download upload user
-  orderBy -download
-   select download
-    transpose
-     heatrix
-   printTable
+  rename user addedBy
+   orderBy -download
+    select download
+     transpose
+      heatrix
+    printTable
 
 tableSearch
 
