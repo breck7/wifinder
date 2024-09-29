@@ -4,6 +4,12 @@ data.parsers
 
 // Put new tests up top
 
+name McDonald's
+address 2237 Kūhiō Ave., Honolulu, HI
+download 17
+upload 1
+tester breck
+
 name Starbucks
 address 2255 Kūhiō Ave., Honolulu, HI 96815
 download 11
