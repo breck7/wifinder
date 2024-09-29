@@ -6,7 +6,7 @@ theme gazette
 container
 printTitle
 
-coffeedata.csv
+data.csv
  printTable
 
 tableSearch
