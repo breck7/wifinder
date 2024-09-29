@@ -10,7 +10,8 @@ data.csv
  select name location download upload ping
   orderBy -download
    select download
-    heatrix
+    transpose
+     heatrix
    printTable
 
 tableSearch
