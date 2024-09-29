@@ -2,10 +2,6 @@ buildConcepts
 
 data.parsers
 
-ip addressParser
- extends abstractStringMeasureParser
- float sortIndex 1.7
-
 name Aloh Cafe
 server Servpac Inc.
 location Honolulu, HI
