@@ -6,68 +6,68 @@ data.parsers
 
 name Hula Grill Waikiki
 address 2335 Kalākaua Ave, Honolulu, HI 96815
-download 22.8
-upload 3.6
+download 23
+upload 4
 user breck
 
 name Stay Hotel Waikiki
 address 2424 Koa Ave, Honolulu, HI 96815
-download 2.9
-upload 2.4
+download 3
+upload 2
 user breck
 
 name Kai Coffee @ Hyatt Regency
 address 2424 Kalākaua Ave #129, Honolulu, HI 96815
-download 13.5
-upload 8.7
+download 14
+upload 9
 user breck
 
 name McDonald's
 address 2476 Kalākaua Ave, Honolulu, HI
-download 236.6
-upload 96.2
+download 237
+upload 96
 user breck
 
 name Starbucks
 address 2586 Kalākaua Ave, Honolulu, HI
-download 13.4
-upload 2.16
+download 13
+upload 2
 user breck
 
 name Aloh Cafe
 address Honolulu, HI
-download 59.7
-upload 32.3
+download 60
+upload 32
 user matt
 
 name Beach Waikiki Hostel
 address Honolulu, HI
-download 12.4
-upload 4.0
+download 12
+upload 4
 user matt
 
 name Hiking Hawaii Cafe
 address Honolulu, HI
-download 1.7
-upload 2.4
+download 2
+upload 2
 user matt
 
 name Marriott Courtyard Bonvoy
 address Honolulu, HI
-download 20.5
-upload 20.5
+download 21
+upload 21
 user matt
 
 name Marriott Reaisance
 address Mililani, HI
-download 18.8
-upload 17.0
+download 19
+upload 17
 user matt
 
 name Marriott Vacation Club
 address Los Angeles, CA
-download 13.6
-upload 13.4
+download 14
+upload 13
 user matt
 
 name Seaside Courtyard
@@ -78,6 +78,6 @@ user matt
 
 name Seaside Hostel
 address Mililani, HI
-download 61.2
+download 61
 upload 35
 user matt
