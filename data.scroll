@@ -3,67 +3,67 @@ buildConcepts
 data.parsers
 
 name Kai Coffee @ Hyatt Regency
-location 2424 Kalākaua Ave #129, Honolulu, HI 96815
 download 13.5
 upload 8.65
 user breck
+address 2424 Kalākaua Ave #129, Honolulu, HI 96815
 
 name McDonald's
-location 2476 Kalākaua Ave, Honolulu, HI
 download 236.6
 upload 96.2
 user breck
+address 2476 Kalākaua Ave, Honolulu, HI
 
 name Starbucks
-location 2586 Kalākaua Ave, Honolulu, HI
 download 13.4
 upload 2.16
 user breck
+address 2586 Kalākaua Ave, Honolulu, HI
 
 name Aloh Cafe
-location Honolulu, HI
 download 59.65
 upload 32.31
 user matt
+address Honolulu, HI
 
 name Beach Waikiki Hostel
-location Honolulu, HI
 download 12.44
 upload 4.03
 user matt
+address Honolulu, HI
 
 name Hiking Hawaii Cafe
-location Honolulu, HI
 download 1.68
 upload 2.38
 user matt
+address Honolulu, HI
 
 name Marriott Courtyard Bonvoy
-location Honolulu, HI
 download 20.47
 upload 20.5
 user matt
+address Honolulu, HI
 
 name Marriott Reaisance
-location Mililani, HI
 download 18.8
 upload 17.01
 user matt
+address Mililani, HI
 
 name Marriott Vacation Club
-location Los Angeles, CA
 download 13.61
 upload 13.44
 user matt
+address Los Angeles, CA
 
 name Seaside Courtyard
-location Mililani, HI
 download 29.97
 upload 31
 user matt
+address Mililani, HI
 
 name Seaside Hostel
-location Mililani, HI
 download 61.23
 upload 35
 user matt
+address Mililani, HI
