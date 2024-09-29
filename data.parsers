@@ -1,5 +1,11 @@
 importOnly
 
+
+ip addressParser
+ extends abstractStringMeasureParser
+ float sortIndex 1.7
+
+
 nameParser
  extends abstractIdParser
  float sortIndex 1.01
