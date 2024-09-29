@@ -7,7 +7,8 @@ container
 printTitle
 
 data.csv
- orderBy -download
-  printTable
+ select name location download upload ping
+  orderBy -download
+   printTable
 
 tableSearch
