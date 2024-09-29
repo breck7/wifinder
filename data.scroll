@@ -2,6 +2,12 @@ buildConcepts
 
 data.parsers
 
+name McDonald's
+location 2476 Kalākaua Ave, Honolulu, HI
+download 236.6
+upload 96.2
+user breck
+
 name Starbucks
 location 2586 Kalākaua Ave, Honolulu, HI
 download 13.4
