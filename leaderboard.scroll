@@ -6,7 +6,7 @@ header.scroll
 container 500px
 
 data.csv
- groupBy user
+ groupBy tester
   orderBy -count
    printTable
 
