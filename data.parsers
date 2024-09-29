@@ -6,7 +6,6 @@ nameParser
  float sortIndex 1.001
  boolean isMeasureRequired true
 
-
 locationParser
  description Where is it located?
  extends abstractStringMeasureParser
@@ -44,3 +43,9 @@ ispParser
 ipAddressParser
  extends abstractStringMeasureParser
  float sortIndex 1.7
+
+userParser
+ description Who tested it?
+ extends abstractStringMeasureParser
+ float sortIndex 1.902
+ boolean isMeasureRequired true
