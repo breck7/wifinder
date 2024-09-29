@@ -1,32 +1,6 @@
 buildConcepts
 
-nameParser
- extends abstractIdParser
- float sortIndex 1.01
-
-serverParser
- extends abstractStringMeasureParser
- float sortIndex 1.1
-
-locationParser
- extends abstractStringMeasureParser
- float sortIndex 1.2
-
-pingParser
- extends abstractFloatMeasureParser
- float sortIndex 1.3
-
-downloadParser
- extends abstractFloatMeasureParser
- float sortIndex 1.4
-
-uploadParser
- extends abstractFloatMeasureParser
- float sortIndex 1.5
-
-ispParser
- extends abstractStringMeasureParser
- float sortIndex 1.6
+data.parsers
 
 ip addressParser
  extends abstractStringMeasureParser
