@@ -15,9 +15,7 @@ data.csv
 # Fastest Finds
 data.csv
  orderBy -download
-  limit 3
+  limit 0 3
    printTable
-
-tableSearch
 
 footer.scroll
