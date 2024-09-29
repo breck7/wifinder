@@ -1,9 +1,10 @@
 buildHtml
 title CoffeeTest.net
 
-printTitle
-
 theme gazette
+
+container
+printTitle
 
 coffeedata.csv
  printTable
