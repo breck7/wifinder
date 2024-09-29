@@ -6,6 +6,8 @@ theme gazette
 container
 printTitle
 
+cowork.png
+
 data.csv
  select name location download upload ping
   orderBy -download
