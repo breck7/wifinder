@@ -5,6 +5,12 @@ data.parsers
 // Put new tests up top
 
 name McDonald's
+address 2476 Kalākaua Ave, Honolulu, HI
+download 57
+upload 96
+tester breck
+
+name McDonald's
 address 2237 Kūhiō Ave., Honolulu, HI
 download 17
 upload 1
