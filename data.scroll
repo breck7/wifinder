@@ -3,73 +3,81 @@ buildConcepts
 data.parsers
 
 name Aloh Cafe
-server Servpac Inc.
 location Honolulu, HI
-ping 12
 download 59.65
 upload 32.31
+ping 12
+server Servpac Inc.
 isp Spectrum
 ipAddress 98.147.40.66
+user matt
 
 name Beach Waikiki Hostel
-server Servpac Inc.
 location Honolulu, HI
-ping 15
 download 12.44
 upload 4.03
+ping 15
+server Servpac Inc.
 isp Spectrum
 ipAddress 24.165.17.24
+user matt
 
 name Hiking Hawaii Cafe
-server Hawaiian Telcom
 location Honolulu, HI
-ping 5
 download 1.68
 upload 2.38
+ping 5
+server Hawaiian Telcom
 isp Lumen
 ipAddress 66.193.145.29
+user matt
 
 name Marriott Courtyard Bonvoy
-server Hawaiian Telcom
 location Honolulu, HI
-ping 7
 download 20.47
 upload 20.5
+ping 7
+server Hawaiian Telcom
 isp Lumen
 ipAddress 66.193.145.29
+user matt
 
 name Marriott Reaisance
-server Spectrum
 location Mililani, HI
-ping 53
 download 18.8
 upload 17.01
+ping 53
+server Spectrum
 isp Spectrum
 ipAddress 98.147.4.164
+user matt
 
 name Marriott Vacation Club
-server Airlink Internet Inc.
 location Los Angeles, CA
-ping 103
 download 13.61
 upload 13.44
+ping 103
+server Airlink Internet Inc.
 isp Spectrum Business
 ipAddress 173.197.99.96
+user matt
 
 name Seaside Courtyard
-server Spectrum
 location Mililani, HI
-ping 17
 download 29.97
 upload 31
+ping 17
+server Spectrum
 isp Spectrum
 ipAddress 76.39.9.131
+user matt
 
 name Seaside Hostel
-server Spectrum
 location Mililani, HI
-ping 21
 download 61.23
 upload 35
+ping 21
+server Spectrum
 isp Spectrum
 ipAddress 76.39.9.131
+user matt
