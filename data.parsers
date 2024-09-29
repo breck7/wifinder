@@ -13,14 +13,14 @@ addressParser
  boolean isMeasureRequired true
 
 downloadParser
- description What is the download speed?
- extends abstractFloatMeasureParser
+ description What is the download speed in Mbps?
+ extends abstractIntegerMeasureParser
  float sortIndex 1.015
  boolean isMeasureRequired true
 
 uploadParser
- description What is the upload speed?
- extends abstractFloatMeasureParser
+ description What is the upload speed in Mbps?
+ extends abstractIntegerMeasureParser
  float sortIndex 1.02
  boolean isMeasureRequired true
 
