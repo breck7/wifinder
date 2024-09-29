@@ -28,7 +28,6 @@ ispParser
  extends abstractStringMeasureParser
  float sortIndex 1.6
 
-
 ipAddressParser
  extends abstractStringMeasureParser
  float sortIndex 1.7
