@@ -1,28 +1,38 @@
 importOnly
 
 nameParser
+ description What is the name of the coffee shop?
  extends abstractIdParser
  float sortIndex 1.01
+ required
+
+downloadParser
+ description What is the download speed?
+ extends abstractFloatMeasureParser
+ float sortIndex 1.4
+ required
+
+uploadParser
+ description What is the upload speed?
+ extends abstractFloatMeasureParser
+ float sortIndex 1.5
+ required
+
+pingParser
+ description What is the ping?
+ extends abstractFloatMeasureParser
+ float sortIndex 1.3
+ required
 
 serverParser
  extends abstractStringMeasureParser
  float sortIndex 1.1
 
 locationParser
+ description Where is it located?
  extends abstractStringMeasureParser
  float sortIndex 1.2
 
-pingParser
- extends abstractFloatMeasureParser
- float sortIndex 1.3
-
-downloadParser
- extends abstractFloatMeasureParser
- float sortIndex 1.4
-
-uploadParser
- extends abstractFloatMeasureParser
- float sortIndex 1.5
 
 ispParser
  extends abstractStringMeasureParser
