@@ -15,7 +15,7 @@ cowork.png
  https://coworkcoffee.com/
 
 data.csv
- select name location download upload ping
+ select name location download upload
   orderBy -download
    select download
     transpose
