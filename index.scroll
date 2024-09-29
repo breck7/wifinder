@@ -8,7 +8,9 @@ data.csv
    orderBy -download
     select download
      transpose
+      <center>
       heatrix
+      </center<
     printTable
 
 tableSearch
