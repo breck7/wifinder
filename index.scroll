@@ -1,6 +1,7 @@
 buildHtml
+title CoffeeTest.net
 
-printTitle CoffeeTest.net
+printTitle
 
 theme gazette
 
