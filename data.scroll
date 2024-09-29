@@ -1,3 +1,5 @@
+buildConcepts
+
 nameParser
  extends abstractIdParser
  float sortIndex 1.01
