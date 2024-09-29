@@ -24,7 +24,7 @@ uploadParser
  float sortIndex 1.02
  boolean isMeasureRequired true
 
-userParser
+testerParser
  description Who tested it?
  extends abstractStringMeasureParser
  float sortIndex 1.902
