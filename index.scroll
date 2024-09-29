@@ -3,7 +3,7 @@ title CoffeeTest.net
 header.scroll
 
 data.csv
- select name location download upload
+ select name address download upload
   orderBy -download
    select download
     transpose
