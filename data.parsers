@@ -3,26 +3,26 @@ importOnly
 nameParser
  description What is the name of the coffee shop?
  extends abstractIdParser
- float sortIndex 1.01
- required
+ float sortIndex 1.001
+ boolean isMeasureRequired true
 
 downloadParser
  description What is the download speed?
  extends abstractFloatMeasureParser
- float sortIndex 1.4
- required
+ float sortIndex 1.015
+ boolean isMeasureRequired true
 
 uploadParser
  description What is the upload speed?
  extends abstractFloatMeasureParser
- float sortIndex 1.5
- required
+ float sortIndex 1.02
+ boolean isMeasureRequired true
 
 pingParser
  description What is the ping?
  extends abstractFloatMeasureParser
- float sortIndex 1.3
- required
+ float sortIndex 1.03
+ boolean isMeasureRequired true
 
 serverParser
  extends abstractStringMeasureParser
