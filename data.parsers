@@ -1,11 +1,5 @@
 importOnly
 
-
-ip addressParser
- extends abstractStringMeasureParser
- float sortIndex 1.7
-
-
 nameParser
  extends abstractIdParser
  float sortIndex 1.01
@@ -33,3 +27,8 @@ uploadParser
 ispParser
  extends abstractStringMeasureParser
  float sortIndex 1.6
+
+
+ipAddressParser
+ extends abstractStringMeasureParser
+ float sortIndex 1.7
