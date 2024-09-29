@@ -4,6 +4,12 @@ data.parsers
 
 // Put new tests up top
 
+name Starbucks
+address 2255 Kūhiō Ave., Honolulu, HI 96815
+download 11
+upload 4
+tester breck
+
 name Hula Grill Waikiki
 address 2335 Kalākaua Ave, Honolulu, HI 96815
 download 23
