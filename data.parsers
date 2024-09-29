@@ -6,6 +6,12 @@ nameParser
  float sortIndex 1.001
  boolean isMeasureRequired true
 
+
+locationParser
+ description Where is it located?
+ extends abstractStringMeasureParser
+ float sortIndex 1.002
+
 downloadParser
  description What is the download speed?
  extends abstractFloatMeasureParser
@@ -28,10 +34,6 @@ serverParser
  extends abstractStringMeasureParser
  float sortIndex 1.1
 
-locationParser
- description Where is it located?
- extends abstractStringMeasureParser
- float sortIndex 1.2
 
 
 ispParser
