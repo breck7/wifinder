@@ -3,17 +3,16 @@ title CoffeeTest.net
 header.scroll
 
 data.csv
- select name address download upload user
-  rename user addedBy
-   orderBy -download
-    select download
-     transpose
-      <br>
-      <center>
-      heatrix
-      </center>
-      <br>
-    printTable
+ select name address download upload tester
+  orderBy -download
+   select download
+    transpose
+     <br>
+     <center>
+     heatrix
+     </center>
+     <br>
+   printTable
 
 tableSearch
 
