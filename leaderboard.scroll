@@ -5,9 +5,17 @@ header.scroll
 </div>
 container 500px
 
+# Most Tests
+
 data.csv
  groupBy tester
   orderBy -count
+   printTable
+
+# Fastest Finds
+data.csv
+ orderBy -download
+  limit 3
    printTable
 
 tableSearch
