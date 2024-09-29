@@ -9,7 +9,8 @@ printTitle
 data.csv
  select name location download upload ping
   orderBy -download
-   heatrix
+   select download
+    heatrix
    printTable
 
 tableSearch
