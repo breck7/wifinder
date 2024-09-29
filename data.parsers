@@ -11,6 +11,7 @@ locationParser
  description Where is it located?
  extends abstractStringMeasureParser
  float sortIndex 1.002
+ boolean isMeasureRequired true
 
 downloadParser
  description What is the download speed?
