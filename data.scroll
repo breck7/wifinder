@@ -1,3 +1,7 @@
+nameParser
+ extends abstractIdParser
+ float sortIndex 1.01
+
 serverParser
  extends abstractStringMeasureParser
  float sortIndex 1.1
@@ -6,16 +10,16 @@ locationParser
  extends abstractStringMeasureParser
  float sortIndex 1.2
 
-ping (ms)Parser
- extends abstractStringMeasureParser
+pingParser
+ extends abstractFloatMeasureParser
  float sortIndex 1.3
 
-download (mbps)Parser
- extends abstractStringMeasureParser
+downloadParser
+ extends abstractFloatMeasureParser
  float sortIndex 1.4
 
-upload (mbps)Parser
- extends abstractStringMeasureParser
+uploadParser
+ extends abstractFloatMeasureParser
  float sortIndex 1.5
 
 ispParser
@@ -26,66 +30,74 @@ ip addressParser
  extends abstractStringMeasureParser
  float sortIndex 1.7
 
+name Aloh Cafe
 server Servpac Inc.
 location Honolulu, HI
-ping (ms) 12
-download (mbps) 59.65
-upload (mbps) 32.31
+ping 12
+download 59.65
+upload 32.31
 isp Spectrum
 ip address 98.147.40.66
 
+name Beach Waikiki Hostel
 server Servpac Inc.
 location Honolulu, HI
-ping (ms) 15
-download (mbps) 12.44
-upload (mbps) 4.03
+ping 15
+download 12.44
+upload 4.03
 isp Spectrum
 ip address 24.165.17.24
 
+name Hiking Hawaii Cafe
 server Hawaiian Telcom
 location Honolulu, HI
-ping (ms) 5
-download (mbps) 1.68
-upload (mbps) 2.38
+ping 5
+download 1.68
+upload 2.38
 isp Lumen
 ip address 66.193.145.29
 
+name Marriott Courtyard Bonvoy
 server Hawaiian Telcom
 location Honolulu, HI
-ping (ms) 7
-download (mbps) 20.47
-upload (mbps) 20.5
+ping 7
+download 20.47
+upload 20.5
 isp Lumen
 ip address 66.193.145.29
 
+name Marriott Reaisance
 server Spectrum
 location Mililani, HI
-ping (ms) 53
-download (mbps) 18.8
-upload (mbps) 17.01
+ping 53
+download 18.8
+upload 17.01
 isp Spectrum
 ip address 98.147.4.164
 
+name Marriott Vacation Club
 server Airlink Internet Inc.
 location Los Angeles, CA
-ping (ms) 103
-download (mbps) 13.61
-upload (mbps) 13.44
+ping 103
+download 13.61
+upload 13.44
 isp Spectrum Business
 ip address 173.197.99.96
 
+name Seaside Courtyard
 server Spectrum
 location Mililani, HI
-ping (ms) 17
-download (mbps) 29.97
-upload (mbps) 31
+ping 17
+download 29.97
+upload 31
 isp Spectrum
 ip address 76.39.9.131
 
+name Seaside Hostel
 server Spectrum
 location Mililani, HI
-ping (ms) 21
-download (mbps) 61.23
-upload (mbps) 35
+ping 21
+download 61.23
+upload 35
 isp Spectrum
 ip address 76.39.9.131
