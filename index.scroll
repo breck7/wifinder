@@ -6,6 +6,8 @@ theme gazette
 container
 printTitle
 
+css html {font-family: "SF Pro", "Helvetica Neue", "Segoe UI", "Arial"; font-size: var(--base-font-size, 14px);}</style>
+
 center
 Powered by
 cowork.png
