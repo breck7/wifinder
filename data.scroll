@@ -1,1 +1,91 @@
+serverParser
+ extends abstractStringMeasureParser
+ float sortIndex 1.1
 
+locationParser
+ extends abstractStringMeasureParser
+ float sortIndex 1.2
+
+ping (ms)Parser
+ extends abstractStringMeasureParser
+ float sortIndex 1.3
+
+download (mbps)Parser
+ extends abstractStringMeasureParser
+ float sortIndex 1.4
+
+upload (mbps)Parser
+ extends abstractStringMeasureParser
+ float sortIndex 1.5
+
+ispParser
+ extends abstractStringMeasureParser
+ float sortIndex 1.6
+
+ip addressParser
+ extends abstractStringMeasureParser
+ float sortIndex 1.7
+
+server Servpac Inc.
+location Honolulu, HI
+ping (ms) 12
+download (mbps) 59.65
+upload (mbps) 32.31
+isp Spectrum
+ip address 98.147.40.66
+
+server Servpac Inc.
+location Honolulu, HI
+ping (ms) 15
+download (mbps) 12.44
+upload (mbps) 4.03
+isp Spectrum
+ip address 24.165.17.24
+
+server Hawaiian Telcom
+location Honolulu, HI
+ping (ms) 5
+download (mbps) 1.68
+upload (mbps) 2.38
+isp Lumen
+ip address 66.193.145.29
+
+server Hawaiian Telcom
+location Honolulu, HI
+ping (ms) 7
+download (mbps) 20.47
+upload (mbps) 20.5
+isp Lumen
+ip address 66.193.145.29
+
+server Spectrum
+location Mililani, HI
+ping (ms) 53
+download (mbps) 18.8
+upload (mbps) 17.01
+isp Spectrum
+ip address 98.147.4.164
+
+server Airlink Internet Inc.
+location Los Angeles, CA
+ping (ms) 103
+download (mbps) 13.61
+upload (mbps) 13.44
+isp Spectrum Business
+ip address 173.197.99.96
+
+server Spectrum
+location Mililani, HI
+ping (ms) 17
+download (mbps) 29.97
+upload (mbps) 31
+isp Spectrum
+ip address 76.39.9.131
+
+server Spectrum
+location Mililani, HI
+ping (ms) 21
+download (mbps) 61.23
+upload (mbps) 35
+isp Spectrum
+ip address 76.39.9.131
