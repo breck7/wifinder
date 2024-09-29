@@ -4,7 +4,7 @@ theme gazette
 
 ## Add location
 
-container
+container 600px
 data.parsers
 
 // expander Add test
