@@ -2,6 +2,12 @@ buildConcepts
 
 data.parsers
 
+name Starbucks
+location 2586 Kalākaua Ave, Honolulu, HI
+download 13.4
+upload 2.16
+user breck
+
 name Aloh Cafe
 location Honolulu, HI
 download 59.65
