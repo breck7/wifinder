@@ -6,7 +6,10 @@ theme gazette
 container
 printTitle
 
+center
+Powered by
 cowork.png
+ width 200px
 
 data.csv
  select name location download upload ping
