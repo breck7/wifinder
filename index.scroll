@@ -1,6 +1,6 @@
 buildHtml
 
-theme tufte
+theme gazette
 
 cofeedata.csv
  printTable
