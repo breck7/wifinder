@@ -9,7 +9,7 @@ ping 12
 download 59.65
 upload 32.31
 isp Spectrum
-ip address 98.147.40.66
+ipAddress 98.147.40.66
 
 name Beach Waikiki Hostel
 server Servpac Inc.
@@ -18,7 +18,7 @@ ping 15
 download 12.44
 upload 4.03
 isp Spectrum
-ip address 24.165.17.24
+ipAddress 24.165.17.24
 
 name Hiking Hawaii Cafe
 server Hawaiian Telcom
@@ -27,7 +27,7 @@ ping 5
 download 1.68
 upload 2.38
 isp Lumen
-ip address 66.193.145.29
+ipAddress 66.193.145.29
 
 name Marriott Courtyard Bonvoy
 server Hawaiian Telcom
@@ -36,7 +36,7 @@ ping 7
 download 20.47
 upload 20.5
 isp Lumen
-ip address 66.193.145.29
+ipAddress 66.193.145.29
 
 name Marriott Reaisance
 server Spectrum
@@ -45,7 +45,7 @@ ping 53
 download 18.8
 upload 17.01
 isp Spectrum
-ip address 98.147.4.164
+ipAddress 98.147.4.164
 
 name Marriott Vacation Club
 server Airlink Internet Inc.
@@ -54,7 +54,7 @@ ping 103
 download 13.61
 upload 13.44
 isp Spectrum Business
-ip address 173.197.99.96
+ipAddress 173.197.99.96
 
 name Seaside Courtyard
 server Spectrum
@@ -63,7 +63,7 @@ ping 17
 download 29.97
 upload 31
 isp Spectrum
-ip address 76.39.9.131
+ipAddress 76.39.9.131
 
 name Seaside Hostel
 server Spectrum
@@ -72,4 +72,4 @@ ping 21
 download 61.23
 upload 35
 isp Spectrum
-ip address 76.39.9.131
+ipAddress 76.39.9.131
