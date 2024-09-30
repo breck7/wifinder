@@ -4,6 +4,12 @@ data.parsers
 
 // Put new tests up top
 
+name Coconut Waikiki Hotel
+address 450 Lewers St, Honolulu, HI 96815
+download 26
+upload 4
+tester breck
+
 name McDonald's
 address 2476 Kalākaua Ave, Honolulu, HI
 download 57
