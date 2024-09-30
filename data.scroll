@@ -5,6 +5,12 @@ data.parsers
 // Put new tests up top
 
 name Starbucks
+address 1778 Ala Moana Blvd
+download 13
+upload 10
+tester breck
+
+name Starbucks
 address 2169 Kālia Rd, Honolulu, HI 96815
 download 9
 upload 4
