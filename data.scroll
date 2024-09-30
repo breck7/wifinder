@@ -4,6 +4,12 @@ data.parsers
 
 // Put new tests up top
 
+name Starbucks
+address 2169 Kālia Rd, Honolulu, HI 96815
+download 9
+upload 4
+tester breck
+
 name Coconut Waikiki Hotel
 address 450 Lewers St, Honolulu, HI 96815
 download 26
