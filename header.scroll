@@ -6,7 +6,7 @@ metaTags
 theme gazette
 
 css html {font-family: "SF Pro", "Helvetica Neue", "Segoe UI", "Arial"; font-size: var(--base-font-size, 18px);}</style>
-container 1000px
+container 960px
 printTitle
 center
 Powered by
