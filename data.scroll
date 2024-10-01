@@ -88,10 +88,10 @@ download 2
 upload 2
 tester matt
 
-name Marriott Courtyard Bonvoy
-address Honolulu, HI
-download 21
-upload 21
+name Marriott Courtyard Waikiki Beach
+address 400 Royal Hawaiian Ave, Honolulu, HI 96815
+download 30
+upload 31
 tester matt
 
 name Marriott Renaissance Honolulu Hotel & Spa
@@ -104,12 +104,6 @@ name Marriott Vacation Club
 address Kapolei - Oahu, Marriott Vacation Club, 92-161 Waipahe Pl, Kapolei, HI 96707
 download 14
 upload 13
-tester matt
-
-name Marriott Courtyard Waikiki Beach
-address 400 Royal Hawaiian Ave, Honolulu, HI 96815
-download 30
-upload 31
 tester matt
 
 name Seaside Hawaiian Hostel
