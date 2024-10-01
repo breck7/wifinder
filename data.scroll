@@ -1,4 +1,4 @@
-buildConcepts
+buildConcepts data.json data.csv data.tsv
 
 data.parsers
 
