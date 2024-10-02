@@ -7,13 +7,13 @@ data.parsers
 name Hiking Hawaii Cafe
 address 1956 Ala Moana Blvd, Honolulu, HI 96815
 download 160
-upload 16.6
+upload 17
 tester matt
 
 name Sheraton Waikiki
 address 2255 Kalakaua Ave
-download 98.2
-upload 94.7
+download 98
+upload 95
 tester matt
 
 name Starbucks
