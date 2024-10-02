@@ -5,14 +5,15 @@ header.scroll
 data.csv
  select name download upload address tester
   orderBy -download
-   select download
-    transpose
-     <br>
-     <center>
-     heatrix
-     </center>
-     <br>
-   printTable
+   compose addressLink https://www.google.com/maps/place/{address}
+    select download
+     transpose
+      <br>
+      <center>
+      heatrix
+      </center>
+      <br>
+    printTable
 
 tableSearch
 
