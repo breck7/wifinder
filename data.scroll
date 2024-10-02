@@ -4,6 +4,12 @@ data.parsers
 
 // Put new tests up top
 
+name Sheriton Waikiki
+address 2255 Kalakaua Ave
+download 98.2
+upload 94.7
+tester matt
+
 name Starbucks
 address 1778 Ala Moana Blvd
 download 13
