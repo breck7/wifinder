@@ -4,6 +4,18 @@ data.parsers
 
 // Put new tests up top
 
+name Island Brew Coffeehouse
+address 1108 Auahi St, Honolulu, HI 96814
+download 4
+upload 3
+tester breck
+
+name Wholefoods
+address 388 Kamakee St Street 100, Honolulu, HI 96814
+download 79
+upload 10
+tester breck
+
 name Hiking Hawaii Cafe
 address 1956 Ala Moana Blvd, Honolulu, HI 96815
 download 160
