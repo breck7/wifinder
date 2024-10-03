@@ -4,6 +4,12 @@ data.parsers
 
 // Put new tests up top
 
+name Ward Village
+address 1240 Ala Moana Blvd #200, Honolulu, HI 96814
+download 25
+upload 4
+tester breck
+
 name Island Brew Coffeehouse
 address 1108 Auahi St, Honolulu, HI 96814
 download 4
