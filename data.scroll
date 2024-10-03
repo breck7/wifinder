@@ -4,6 +4,12 @@ data.parsers
 
 // Put new tests up top
 
+name Box Jelly
+address 1200 Ala Moana Blvd, Honolulu, HI 96814
+download 70
+upload 24
+tester breck
+
 name Ward Village
 address 1240 Ala Moana Blvd #200, Honolulu, HI 96814
 download 25
