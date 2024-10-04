@@ -29,3 +29,13 @@ testerParser
  extends abstractStringMeasureParser
  float sortIndex 1.902
  boolean isMeasureRequired true
+
+latParser
+ description What is the latitude of the location?
+ extends abstractFloatMeasureParser
+ float sortIndex 1.005
+
+longParser
+ description What is the longitude of the location?
+ extends abstractFloatMeasureParser
+ float sortIndex 1.006

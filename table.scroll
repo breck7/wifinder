@@ -1,0 +1,29 @@
+title WiFind
+
+header.scroll
+container 960px
+printTitle
+coworkButton.scroll
+
+data.csv
+ select name download upload address tester
+  orderBy -download
+   compose nameLink https://www.google.com/maps/place/{address}
+    select download
+     transpose
+      <br>
+      <center>
+      heatrix
+      </center>
+      <br>
+    select name nameLink download upload tester
+     printTable
+
+tableSearch
+
+
+expander Full table
+data.csv
+ printTable
+
+footer.scroll

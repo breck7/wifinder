@@ -4,12 +4,4 @@ favicon favicon.png
 homeButton
 metaTags
 theme gazette
-
 css html {font-family: "SF Pro", "Helvetica Neue", "Segoe UI", "Arial"; font-size: var(--base-font-size, 18px);}</style>
-container 960px
-printTitle
-
-center
-cowork.png
- width 200px
- https://coworkcoffee.com/
