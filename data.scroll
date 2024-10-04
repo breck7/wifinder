@@ -4,6 +4,12 @@ data.parsers
 
 // Put new tests up top
 
+name Island Brew Coffeehouse
+address 1108 Auahi St, Honolulu, HI 96814
+download 230
+upload 3
+tester breck
+
 name Our Kaka'ako
 address 660 Ala Moana Blvd, Suite #148
 download 95
