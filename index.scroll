@@ -13,7 +13,8 @@ data.csv
       heatrix
       </center>
       <br>
-    printTable
+    select name nameLink download upload tester
+     printTable
 
 tableSearch
 
