@@ -5,7 +5,7 @@ header.scroll
 data.csv
  select name download upload address tester
   orderBy -download
-   compose addressLink https://www.google.com/maps/place/{address}
+   compose nameLink https://www.google.com/maps/place/{address}
     select download
      transpose
       <br>
