@@ -5,10 +5,10 @@ data.parsers
 // Put new tests up top
 
 name Our Kaka'ako
+address 660 Ala Moana Blvd, Suite #148
 download 95
 upload 37
 tester kevinlim
-660 Ala Moana Blvd, Suite #148
 
 name Morning Brew - Kaka'ako
 address 685 Auahi St Ste 113, Honolulu, HI 96813
