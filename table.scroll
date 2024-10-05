@@ -16,11 +16,11 @@ data.csv
       heatrix
       </center>
       <br>
-    select name nameLink download upload tester
-     printTable
+    rank
+     select rank name nameLink download upload tester
+      printTable
 
 tableSearch
-
 
 expander Full table
 data.csv
