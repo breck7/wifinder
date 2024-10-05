@@ -9,12 +9,13 @@ links.scroll
 data.csv
  select name lat long download upload address tester
   orderBy -download
-   compose nameLink https://www.google.com/maps/place/{address}
-    compute radius Math.max(4,{download}/5)
-     map
-      height full
-      zoom 14
-      lat 21.29
-      long -157.85
-      color green
-      hover <b>{name}</b><br><a href="{nameLink}">{address}</a><br>Download: {download}<br>Upload: {upload}<br>Tester: {tester}
+   rank
+    compose nameLink https://www.google.com/maps/place/{address}
+     compute radius Math.max(4,{download}/5)
+      map
+       height full
+       zoom 14
+       lat 21.29
+       long -157.85
+       color green
+       hover <b>#{rank} {name}</b><br><a href="{nameLink}">{address}</a><br>Download: {download}<br>Upload: {upload}<br>Tester: {tester}
