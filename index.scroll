@@ -18,4 +18,4 @@ data.csv
        lat 21.29
        long -157.85
        color green
-       hover <b>#{rank} {name}</b><br><a href="{nameLink}">{address}</a><br>Download: {download}<br>Upload: {upload}<br>Tester: {tester}
+       hover <b>{name} - #{rank}</b><br><a href="{nameLink}">{address}</a><br>Download: {download}<br>Upload: {upload}<br>Tester: {tester}
