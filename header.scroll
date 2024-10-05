@@ -1,5 +1,5 @@
 buildHtml
-favicon favicon.png
+favicon https://wifind.hub.scroll.pub/favicon.png
 
 homeButton
 metaTags
