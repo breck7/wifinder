@@ -4,6 +4,38 @@ data.parsers
 
 // Put new tests up top
 
+name McDonald's
+address 377 Keahole St, Honolulu, HI 96825
+download 175
+upload 70
+tester breck
+lat 21.285187
+long -157.708062
+
+name Island Brew Coffeehouse
+address 377 Keahole St, Honolulu, HI 96825
+download 94
+upload 20
+tester breck
+lat 21.284062
+long -157.707187
+
+name Hawaiʻi Kai Towne Center
+address 333 Keahole St, Honolulu, HI 96825
+download 23
+upload 4
+tester breck
+lat 21.283213
+long -157.711078
+
+name Starbucks
+address 377 Keahole St, Honolulu, HI 96825
+download 12
+upload 3
+tester breck
+lat 21.283313
+long -157.710797
+
 name Island Brew Coffeehouse
 address 1108 Auahi St, Honolulu, HI 96814
 download 230
