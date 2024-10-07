@@ -4,6 +4,14 @@ data.parsers
 
 // Put new tests up top
 
+name HNL Free Wifi
+address HNL Airport
+lat 21.329383
+long -157.9237374
+download 93
+upload 13
+tester breck
+
 name Delta Sky Club
 address Honolulu, HI 96819
 lat 21.3316334
