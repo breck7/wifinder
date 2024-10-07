@@ -2,8 +2,6 @@ title WiFind
 
 header.scroll
 container 960px
-printTitle
-coworkButton.scroll
 
 data.csv
  select name download upload address tester

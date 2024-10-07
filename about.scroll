@@ -1,11 +1,6 @@
 title About WiFind
 
 header.scroll
-container 960px
-printTitle
-coworkButton.scroll
-
-</div>
 container 500px
 
 WiFind was created by two frequent travellers over our shared love for cafes with great wifi.

@@ -4,4 +4,15 @@ favicon favicon.png
 homeButton
 metaTags
 theme gazette
-css html {font-family: "SF Pro", "Helvetica Neue", "Segoe UI", "Arial"; font-size: var(--base-font-size, 18px);}</style>
+css
+ html {
+ font-family: "SF Pro", "Helvetica Neue", "Segoe UI", "Arial";
+ font-size: var(--base-font-size, 18px);
+ }
+ a {
+ color: rgba(59,86,93,0.8);
+ }
+
+printTitle
+coworkButton.scroll
+links.scroll

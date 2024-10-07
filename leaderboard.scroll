@@ -1,11 +1,6 @@
 title WiFind Leaderboard
 
 header.scroll
-container 960px
-printTitle
-coworkButton.scroll
-
-</div>
 container 500px
 
 # Most Tests

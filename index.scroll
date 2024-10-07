@@ -1,21 +1,20 @@
 title WiFind
 
 header.scroll
-printTitle
-coworkButton.scroll
-
-links.scroll
 
 data.csv
  select name lat long download upload address tester
   orderBy -download
    rank
     compose nameLink https://www.google.com/maps/place/{address}
-     compute radius Math.max(4,{download}/5)
+     compute fillOpacity Math.max(.3, {download}/150)
       map
        height full
        zoom 14
        lat 21.29
        long -157.85
-       color green
+       fillColor green
+       radius 15
+       tiles light
+       color transparent
        hover <b>{name} - #{rank}</b><br><a href="{nameLink}">{address}</a><br>Download: {download}<br>Upload: {upload}<br>Tester: {tester}
