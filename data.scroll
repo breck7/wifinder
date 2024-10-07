@@ -4,6 +4,14 @@ data.parsers
 
 // Put new tests up top
 
+name Delta Sky Club
+address Honolulu, HI 96819
+lat 21.3316334
+long -157.9185754
+download 44
+upload 28
+tester breck
+
 name McDonald's
 address 377 Keahole St, Honolulu, HI 96825
 lat 21.285187
