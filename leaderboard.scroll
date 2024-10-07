@@ -13,7 +13,8 @@ data.csv
 # Fastest Finds
 data.csv
  orderBy -download
-  limit 0 3
-   printTable
+  select name download tester
+   limit 0 3
+    printTable
 
 footer.scroll
