@@ -6,241 +6,232 @@ data.parsers
 
 name McDonald's
 address 377 Keahole St, Honolulu, HI 96825
+lat 21.285187
+long -157.708062
 download 175
 upload 70
 tester breck
-lat 21.285187
-long -157.708062
 
 name Island Brew Coffeehouse
 address 377 Keahole St, Honolulu, HI 96825
+lat 21.284062
+long -157.707187
 download 94
 upload 20
 tester breck
-lat 21.284062
-long -157.707187
 
 name Hawaiʻi Kai Towne Center
 address 333 Keahole St, Honolulu, HI 96825
+lat 21.283213
+long -157.711078
 download 23
 upload 4
 tester breck
-lat 21.283213
-long -157.711078
 
 name Starbucks
 address 377 Keahole St, Honolulu, HI 96825
+lat 21.283313
+long -157.710797
 download 12
 upload 3
 tester breck
-lat 21.283313
-long -157.710797
 
 name Island Brew Coffeehouse
 address 1108 Auahi St, Honolulu, HI 96814
+lat 21.2936287
+long -157.8526952
 download 230
 upload 3
 tester breck
-lat 21.2936287
-long -157.8526952
 
 name Our Kaka'ako
 address 660 Ala Moana Blvd, Suite #148
+lat 21.2980939
+long -157.8622883
 download 95
 upload 37
 tester kevinlim
-lat 21.2980939
-long -157.8622883
 
 name Morning Brew - Kaka'ako
 address 685 Auahi St Ste 113, Honolulu, HI 96813
+lat 21.297688
+long -157.860448
 download 79
 upload 73
 tester kevinlim
-lat 21.297688
-long -157.860448
 
 name Box Jelly
 address 1200 Ala Moana Blvd, Honolulu, HI 96814
+lat 21.2928312
+long -157.8519111
 download 70
 upload 24
 tester breck
-lat 21.2928312
-long -157.8519111
 
 name Ward Village
 address 1240 Ala Moana Blvd #200, Honolulu, HI 96814
+lat 21.291979382020900
+long -157.85041345172600
 download 25
 upload 4
 tester breck
-lat 21.291979382020900
-long -157.85041345172600
-
-name Island Brew Coffeehouse
-address 1108 Auahi St, Honolulu, HI 96814
-download 4
-upload 3
-tester breck
-lat 21.2936287
-long -157.8526952
 
 name Wholefoods
 address 388 Kamakee St Street 100, Honolulu, HI 96814
+lat 21.2946436
+long -157.8524053
 download 79
 upload 10
 tester breck
-lat 21.2946436
-long -157.8524053
 
 name Hiking Hawaii Cafe
 address 1956 Ala Moana Blvd, Honolulu, HI 96815
+lat 21.285504409523900
+long -157.83446110838800
 download 160
 upload 17
 tester matt
-lat 21.285504409523900
-long -157.83446110838800
 
 name Sheraton Waikiki
 address 2255 Kalakaua Ave
+lat 21.2768656
+long -157.8303232
 download 98
 upload 95
 tester matt
-lat 21.2768656
-long -157.8303232
 
 name McDonald's
 address 1778 Ala Moana Blvd
+lat 21.2853928
+long -157.8379656
 download 13
 upload 10
 tester breck
-lat 21.2853928
-long -157.8379656
 
 name Starbucks
 address 2169 Kālia Rd, Honolulu, HI 96815
+lat 21.2777786
+long -157.833186
 download 9
 upload 4
 tester breck
-lat 21.2777786
-long -157.833186
 
 name Coconut Waikiki Hotel
 address 450 Lewers St, Honolulu, HI 96815
+lat 21.28268755
+long -157.8275950103480
 download 26
 upload 4
 tester breck
-lat 21.28268755
-long -157.8275950103480
 
 name McDonald's
 address 2476 Kalākaua Ave, Honolulu, HI
+lat 21.276131312101300
+long -157.8257973665040
 download 57
 upload 96
 tester breck
-lat 21.276131312101300
-long -157.8257973665040
 
 name McDonald's
 address 2237 Kūhiō Ave., Honolulu, HI
+lat 21.28046355
+long -157.82762611968200
 download 17
 upload 1
 tester breck
-lat 21.28046355
-long -157.82762611968200
 
 name Starbucks
 address 2255 Kūhiō Ave., Honolulu, HI 96815
+lat 21.2796028
+long -157.8266621
 download 11
 upload 4
 tester breck
-lat 21.2796028
-long -157.8266621
 
 name Hula Grill Waikiki
 address 2335 Kalākaua Ave, Honolulu, HI 96815
+lat 21.27715
+long -157.8276707
 download 23
 upload 4
 tester breck
-lat 21.27715
-long -157.8276707
 
 name Stay Hotel Waikiki
 address 2424 Koa Ave, Honolulu, HI 96815
+lat 21.276332500000000
+long -157.82445297298300
 download 3
 upload 2
 tester breck
-lat 21.276332500000000
-long -157.82445297298300
 
 name Kai Coffee @ Hyatt Regency
 address 2424 Kalākaua Ave #129, Honolulu, HI 96815
+lat 21.276067000000000
+long -157.82509011592000
 download 14
 upload 9
 tester breck
-lat 21.276067000000000
-long -157.82509011592000
 
 name McDonald's
 address 2476 Kalākaua Ave, Honolulu, HI
+lat 21.276131312101300
+long -157.8257973665040
 download 237
 upload 96
 tester breck
-lat 21.276131312101300
-long -157.8257973665040
 
 name Starbucks
 address 2586 Kalākaua Ave, Honolulu, HI
+lat 21.2719973
+long -157.82240798207800
 download 13
 upload 2
 tester breck
-lat 21.2719973
-long -157.82240798207800
 
 name Aloh Cafe
 address 407 Seaside Ave 1st floor, Honolulu, HI 96815
+lat 21.280457
+long -157.82671250000000
 download 60
 upload 32
 tester matt
-lat 21.280457
-long -157.82671250000000
 
 name The Beach Waikiki Hostel
 address 2569 Cartwright Rd, Honolulu, HI 96815
+lat 21.27230241748230
+long -157.82105363104400
 download 12
 upload 4
 tester matt
-lat 21.27230241748230
-long -157.82105363104400
 
 name Marriott Courtyard Waikiki Beach
 address 400 Royal Hawaiian Ave, Honolulu, HI 96815
+lat 21.28155615
+long -157.82727085
 download 30
 upload 31
 tester matt
-lat 21.28155615
-long -157.82727085
 
 name Marriott Renaissance Honolulu Hotel & Spa
 address 1390 Kapiolani Blvd, Honolulu, HI 96814
+lat 21.293756538904200
+long -157.8437846834390
 download 19
 upload 17
 tester matt
-lat 21.293756538904200
-long -157.8437846834390
 
 name Marriott Vacation Club
 address 92 Waipahe Pl, Kapolei, HI 96707
+lat 21.328941
+long -158.118743
 download 14
 upload 13
 tester matt
-lat 21.328941
-long -158.118743
 
 name Seaside Hawaiian Hostel
 address 419 Seaside Ave, Honolulu, HI 96815
+lat 21.280769222222200
+long -157.82641055555600
 download 61
 upload 35
 tester matt
-lat 21.280769222222200
-long -157.82641055555600
-
