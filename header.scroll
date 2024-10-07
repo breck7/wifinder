@@ -1,5 +1,6 @@
 buildHtml
 favicon favicon.png
+openGraphImage og.png
 
 homeButton
 metaTags
