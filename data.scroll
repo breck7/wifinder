@@ -195,3 +195,20 @@ upload 17
 tester matt
 lat 21.293756538904200
 long -157.8437846834390
+
+name Marriott Vacation Club
+address 92 Waipahe Pl, Kapolei, HI 96707
+download 14
+upload 13
+tester matt
+lat 21.328941
+long -158.118743
+
+name Seaside Hawaiian Hostel
+address 419 Seaside Ave, Honolulu, HI 96815
+download 61
+upload 35
+tester matt
+lat 21.280769222222200
+long -157.82641055555600
+
