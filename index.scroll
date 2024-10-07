@@ -10,8 +10,8 @@ data.csv
      compute fillOpacity Math.max(.3, {download}/150)
       map
        height full
-       zoom 14
-       lat 21.29
+       zoom 11
+       lat 21.39
        long -157.85
        fillColor green
        radius 15
