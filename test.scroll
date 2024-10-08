@@ -4,7 +4,7 @@ header.scroll
 container 600px
 data.parsers
 
-scrollForm /insert.htm?folderName=wifinder.wiki&fileName=data.scroll&line=6 Submit
+scrollForm /insert.htm?folderName=wifinder.wiki&fileName=data.scroll&line=6&redirect=thanks.html Submit
 
 test.js
 footer.scroll
