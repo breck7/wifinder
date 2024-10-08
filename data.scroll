@@ -4,6 +4,14 @@ data.parsers
 
 // Put new tests up top
 
+name SFO
+address SFO
+lat 37.61699311093693
+long -122.38389250079841
+download 201
+upload 157
+tester breck
+
 name Delta Sky Club
 address LAX
 lat 33.9454098
