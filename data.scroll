@@ -11,6 +11,13 @@ download 17
 upload 3
 tester breck
 
+name Safeway
+lat 37.60355571085978
+long -122.39499105794175
+download 27
+upload 2
+tester breck
+
 name SFO
 address SFO
 lat 37.61699311093693
