@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Starbucks
+lat 37.60290356738425
+long -122.39451192243399
+download 9
+upload 3
+tester breck
+
 name Peet's
 lat 37.6015452
 long -122.3928027
