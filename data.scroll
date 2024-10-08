@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Peet's
+lat 37.6015452
+long -122.3928027
+download 17
+upload 3
+tester breck
+
 name SFO
 address SFO
 lat 37.61699311093693
