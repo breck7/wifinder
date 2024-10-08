@@ -47,11 +47,10 @@ class WiFinder {
   async particles() {
     const {latitude, longitude, downloadSpeed, uploadSpeed} = await this.runTests()
     return `name 
-address 
-lat ${latitude}
-long ${longitude}
-download ${downloadSpeed}
-upload ${uploadSpeed}
+lat ${latitude || ""}
+long ${longitude || ""}
+download ${downloadSpeed || ""}
+upload ${uploadSpeed || ""}
 tester `
   }
 }

@@ -4,9 +4,9 @@ header.scroll
 container 960px
 
 data.csv
- select name download upload address tester
+ select name download upload tester lat long
   orderBy -download
-   compose nameLink https://www.google.com/maps/place/{address}
+   compose nameLink https://www.openstreetmap.org/?mlat={lat}&mlon={long}#map=19/{lat}/{long}
     rank
      select rank name nameLink download upload tester
       printTable
