@@ -10,7 +10,7 @@ data.csv
      compute fillOpacity Math.max(.3, {download}/150)
       map
        height full
-       zoom 11
+       zoom 16
        fillColor green
        radius 15
        tiles light
