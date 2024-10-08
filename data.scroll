@@ -4,6 +4,14 @@ data.parsers
 
 // Put new tests up top
 
+name Delta Sky Club
+address LAX
+lat 33.9454098
+long -118.4055553
+download 98
+upload 103
+tester breck
+
 name HNL Free Wifi
 address HNL Airport
 lat 21.329383
