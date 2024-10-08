@@ -12,6 +12,14 @@ download 201
 upload 157
 tester breck
 
+name LAX Wifi
+address LAX
+lat 33.94659545528131
+long -118.40421163318656
+download 29
+upload 83
+tester breck
+
 name Delta Sky Club
 address LAX
 lat 33.9454098
