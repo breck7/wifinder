@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name McDonalds
+lat 37.78938336471439
+long -122.40763284711623
+download 40
+upload 38
+tester breck
+
 name Marriott Union Square
 lat 37.7894099
 long -122.4084032
