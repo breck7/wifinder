@@ -11,8 +11,6 @@ data.csv
       map
        height full
        zoom 11
-       lat 21.39
-       long -157.85
        fillColor green
        radius 15
        tiles light
