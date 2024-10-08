@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Four Seasons
+lat 37.792540356696705
+long -122.40097521709859
+download 48
+upload 30
+tester breck
+
 name Starbucks
 lat 37.78937895706318
 long -122.40698735352566
