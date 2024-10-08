@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Peet's
+lat 37.79461418980709
+long -122.39894028368151
+download 19
+upload 7
+tester breck
+
 name Four Seasons
 lat 37.792540356696705
 long -122.40097521709859
