@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Andytown
+lat 37.763993768418196
+long -122.41290558912497
+download 7
+upload 5
+tester breck
 name Haus
 lat 37.7527923
 long -122.4138023
