@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Haus
+lat 37.7527923
+long -122.4138023
+download 1
+upload 1
+tester breck
 name Temo's
 lat 37.7526981
 long -122.4122163
