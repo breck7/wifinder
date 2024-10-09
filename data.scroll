@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Peets
+lat 37.7713457178786
+long -122.40530126875692
+download 12
+upload 3
+tester breck
 name Starbucks
 lat 37.7632836
 long -122.4099042
