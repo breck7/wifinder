@@ -37,7 +37,8 @@ class WiFinder {
     try {
       const position = await this.getLocation();
       const { latitude, longitude } = position.coords;
-      const speedResults = await this.runSpeedTest();
+     // const speedResults = await this.runSpeedTest();
+      const speedResults = {}
       return { latitude, longitude, ...speedResults };
     } catch (error) {
       return { error: error.message };
