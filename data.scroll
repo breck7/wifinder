@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Temo's
+lat 37.7526981
+long -122.4122163
+download 239
+upload 19
+tester breck
 name L's Cafe
 lat 37.7526783
 long -122.40959
