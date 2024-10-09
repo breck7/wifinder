@@ -3,6 +3,13 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name GitHub
+lat 37.7824545
+long -122.3913079
+download 69
+upload 46
+tester breck
+
 name SF Homebrew Crypto Club
 lat 37.7716735
 long -122.4131971
