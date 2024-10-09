@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Starbucks
+lat 37.7632836
+long -122.4099042
+download 11
+upload 4
+tester breck
 name Andytown
 lat 37.763993768418196
 long -122.41290558912497
