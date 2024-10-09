@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Ikon Coffee
+lat 37.7577732
+long -122.3942779
+download 21
+upload 4
+tester breck
 name Caltrain
 lat 37.77629573892393
 long -122.39484531479059
