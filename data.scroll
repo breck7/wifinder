@@ -3,42 +3,55 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name 
+lat 40.740033387242214
+long -73.98057698803377
+download 
+upload 
+tester 
+
 name Saluhall
 lat 37.7828385
 long -122.4092088
 download 175
 upload 136
 tester breck
+
 name Peets
 lat 37.7713457178786
 long -122.40530126875692
 download 12
 upload 3
 tester breck
+
 name Starbucks
 lat 37.7632836
 long -122.4099042
 download 11
 upload 4
 tester breck
+
 name Andytown
 lat 37.763993768418196
 long -122.41290558912497
 download 7
 upload 5
 tester breck
+
 name Haus
 lat 37.7527923
 long -122.4138023
 download 1
 upload 1
 tester breck
+
 name Temo's
 lat 37.7526981
 long -122.4122163
 download 239
 upload 19
 tester breck
+
 name L's Cafe
 lat 37.7526783
 long -122.40959
