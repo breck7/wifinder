@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name McDonald's
+lat 37.6065203
+long -122.3983721
+download 293
+upload 290
+tester breck
 name 
 lat 40.740033387242214
 long -73.98057698803377
