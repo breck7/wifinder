@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Starbucks
+lat 37.79699089697419
+long -122.39822220460087
+download 9
+upload 3
+tester breck
 name Hyatt
 lat 37.79438070637101
 long -122.39598883959945
