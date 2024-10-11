@@ -2,6 +2,8 @@ title WiFinder
 
 header.scroll
 
+// This is the WiFinder homepage
+
 data.csv
  select name lat long download upload tester
   orderBy -download
