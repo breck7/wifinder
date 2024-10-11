@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Delah Coffee
+lat 37.7810632
+long -122.4002497
+download 168
+upload 170
+tester breck
 
 name McDonald's
 lat 37.6065203
