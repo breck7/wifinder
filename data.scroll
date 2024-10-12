@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name 
+lat 
+long 
+download 
+upload 
+tester 
 name Edge and Node House of Web 3
 lat 37.80081673074809
 long -122.4585698489644
