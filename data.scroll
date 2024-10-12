@@ -3,30 +3,28 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
-name 
-lat 
-long 
-download 
-upload 
-tester 
+
 name Edge and Node House of Web 3
 lat 37.80081673074809
 long -122.4585698489644
 download 86
 upload 17
 tester breck
+
 name Equator Coffee
 lat 37.8078061
 long -122.4756642
 download 20
 upload 5
 tester breck
+
 name Starbucks
 lat 37.79699089697419
 long -122.39822220460087
 download 9
 upload 3
 tester breck
+
 name Hyatt
 lat 37.79438070637101
 long -122.39598883959945
