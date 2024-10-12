@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Sextant Coffee
+lat 37.7642828
+long -122.4217504
+download 349
+upload 398
+tester breck
 name Dandelion
 lat 37.76569754259909
 long -122.41256201297394
