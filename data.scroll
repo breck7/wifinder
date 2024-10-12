@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Equator Coffee
+lat 37.8078061
+long -122.4756642
+download 20
+upload 5
+tester breck
 name Starbucks
 lat 37.79699089697419
 long -122.39822220460087
