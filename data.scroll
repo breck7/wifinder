@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Secret Spot 
+lat 21.2792701
+long -157.8263048
+download 13
+upload 6
+tester jsalsman
 name Secret Spot
 lat 21.2792842
 long -157.8263435
