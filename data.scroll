@@ -6,6 +6,12 @@ data.parsers
 name LANS
 lat 
 long 
+download 763
+upload 899
+tester LANS
+name LANS
+lat 
+long 
 download 
 upload 
 tester LANS
