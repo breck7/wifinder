@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name LANS
+lat 
+long 
+download 
+upload 
+tester LANS
 name 
 lat 
 long 
