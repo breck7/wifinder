@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Lans
+lat 37.7634191
+long -122.4210167
+download 351
+upload 140
+tester breck
 
 name Sextant Coffee
 lat 37.7642828
