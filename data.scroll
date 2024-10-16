@@ -3,12 +3,14 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+
 name Verge
 lat 37.444057
 long -122.1631926
 download 2
 upload 1
 tester breck
+
 name Starbucks
 lat 37.444251167136976
 long -122.16338685707022
@@ -24,25 +26,11 @@ upload 16
 tester breck
 
 name LANS
-lat
-long
+lat 37.7634191
+long -122.4210167
 download 763
 upload 899
 tester LANS
-
-name LANS
-lat
-long
-download
-upload
-tester LANS
-
-name
-lat
-long
-download
-upload
-tester
 
 name Lans
 lat 37.7634191
