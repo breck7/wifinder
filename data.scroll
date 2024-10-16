@@ -3,30 +3,40 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Starbucks
+lat 37.444251167136976
+long -122.16338685707022
+download 21
+upload 20
+tester breck
+
 name McDonald's
 lat 37.7521259
 long -122.418185
 download 57
 upload 16
 tester breck
+
 name LANS
-lat 
-long 
+lat
+long
 download 763
 upload 899
 tester LANS
+
 name LANS
-lat 
-long 
-download 
-upload 
+lat
+long
+download
+upload
 tester LANS
-name 
-lat 
-long 
-download 
-upload 
-tester 
+
+name
+lat
+long
+download
+upload
+tester
 
 name Lans
 lat 37.7634191
