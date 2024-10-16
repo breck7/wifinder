@@ -1,3 +1,4 @@
+baseUrl https://wifinder.wiki/
 buildHtml
 favicon favicon.png
 openGraphImage og.png
