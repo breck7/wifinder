@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Coupa Cafe
+lat 37.44499263315922
+long -122.1616151481496
+download 65
+upload 7
+tester breck
 
 name Verge
 lat 37.444057
