@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Wholefoods
+lat 37.44187804164062
+long -122.15852719081721
+download 71
+upload 75
+tester breck
 name Coupa Cafe
 lat 37.44499263315922
 long -122.1616151481496
