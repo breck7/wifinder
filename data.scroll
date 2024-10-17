@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Peets
+lat 37.4420204343444
+long -122.1594791644521
+download 19
+upload 7
+tester breck
 name Sheraton
 lat 37.441221589538316
 long -122.16349449667968
