@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Joe & the Juice
+lat 37.448543790775666
+long -122.15909471681313
+download 78
+upload 12
+tester breck
 name Apple Store
 lat 37.44654415978136
 long -122.16102860757292
