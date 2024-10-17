@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name Sheraton
+lat 37.441221589538316
+long -122.16349449667968
+download 16
+upload 17
+tester breck
 name Transbay
 lat 37.78787254613119
 long -122.39893870878079
