@@ -3,6 +3,12 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+name SFO
+lat 37.6129621
+long -122.384621
+download 270
+upload 298
+tester breck
 name Stanford Guest
 lat 37.43301732016472
 long -122.17065399276228
