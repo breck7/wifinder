@@ -3,6 +3,13 @@ buildConcepts data.json data.csv data.tsv
 data.parsers
 
 // Put new tests up top
+
+name San Diego Airport
+lat 32.7326145
+long -117.19631
+download 28
+upload 30
+tester breck
 name SFO
 lat 37.6129621
 long -122.384621
