@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Starbucks
+lat 21.274097
+long -157.8219776
+download 11
+upload 3
+tester breck
+
 name Marriott Lobby
 lat 21.27330334070228
 long -157.82290304484283
