@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Marriott Lobby
+lat 21.27330334070228
+long -157.82290304484283
+download 1
+upload 1
+tester breck
+
 name San Diego Airport
 lat 32.7326145
 long -117.19631
