@@ -5,6 +5,13 @@ data.parsers
 // Put new tests up top
 
 name 
+lat 
+long 
+download 
+upload 
+tester 
+
+name 
 lat 49.237081964638556
 long 26.20816989542714
 download 
