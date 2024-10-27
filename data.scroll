@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name 
+lat 
+long 
+download 
+upload 
+tester 
+
 
 name Starbucks
 lat 21.274097
