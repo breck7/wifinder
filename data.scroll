@@ -60,6 +60,13 @@ download
 upload 
 tester 
 
+name 
+lat 
+long 
+download 
+upload 
+tester 
+
 
 name Starbucks
 lat 21.274097
