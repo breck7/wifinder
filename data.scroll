@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Bizia
+lat 21.5023328
+long -158.0266619
+download 4
+upload 8
+tester breck
+
 name McDonald's
 lat 21.4943914
 long -158.0286953
