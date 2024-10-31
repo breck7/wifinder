@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Wahaiwa Public Library
+lat 21.4975219
+long -158.0264434
+download 99
+upload 28
+tester breck
+
 name Bizia
 lat 21.5023328
 long -158.0266619
