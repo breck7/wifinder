@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Jack in the Box
+lat 21.495632352544188
+long -158.03012660425415
+download 5
+upload 5
+tester breck
+
 name Wahaiwa Public Library
 lat 21.4975219
 long -158.0264434
