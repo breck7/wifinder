@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Surfers Coffee
+lat 21.4949767
+long -158.0295038
+download 37
+upload 10
+tester breck
+
 name Jack in the Box
 lat 21.495632352544188
 long -158.03012660425415
