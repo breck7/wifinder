@@ -46,14 +46,12 @@ download 4
 upload 1
 tester breck
 
-
 name Starbucks
 lat 21.274097
 long -157.8219776
 download 11
 upload 3
 tester breck
-
 
 name Marriott Lobby
 lat 21.27330334070228
@@ -62,14 +60,12 @@ download 1
 upload 1
 tester breck
 
-
 name San Diego Airport
 lat 32.7326145
 long -117.19631
 download 28
 upload 30
 tester breck
-
 
 name SFO
 lat 37.6129621
@@ -78,14 +74,12 @@ download 270
 upload 298
 tester breck
 
-
 name Stanford Guest
 lat 37.43301732016472
 long -122.17065399276228
 download 7
 upload 7
 tester breck
-
 
 name Sutter Health
 lat 37.44074765007181
@@ -94,14 +88,12 @@ download 3
 upload 3
 tester breck
 
-
 name Peets
 lat 37.4420204343444
 long -122.1594791644521
 download 19
 upload 7
 tester breck
-
 
 name Sheraton
 lat 37.441221589538316
@@ -110,14 +102,12 @@ download 16
 upload 17
 tester breck
 
-
 name Transbay
 lat 37.78787254613119
 long -122.39893870878079
 download 5
 upload 1
 tester breck
-
 
 name Joe & the Juice
 lat 37.448543790775666
@@ -126,14 +116,12 @@ download 78
 upload 12
 tester breck
 
-
 name Apple Store
 lat 37.44654415978136
 long -122.16102860757292
 download 59
 upload 62
 tester breck
-
 
 name Wholefoods
 lat 37.44187804164062
@@ -142,14 +130,12 @@ download 71
 upload 75
 tester breck
 
-
 name Coupa Cafe
 lat 37.44499263315922
 long -122.1616151481496
 download 65
 upload 7
 tester breck
-
 
 name Verge
 lat 37.444057
@@ -158,14 +144,12 @@ download 2
 upload 1
 tester breck
 
-
 name Starbucks
 lat 37.444251167136976
 long -122.16338685707022
 download 21
 upload 20
 tester breck
-
 
 name McDonald's
 lat 37.7521259
@@ -174,14 +158,12 @@ download 57
 upload 16
 tester breck
 
-
 name LANS
 lat 37.7634191
 long -122.4210167
 download 763
 upload 899
 tester LANS
-
 
 name Lans
 lat 37.7634191
@@ -190,14 +172,12 @@ download 351
 upload 140
 tester breck
 
-
 name Sextant Coffee
 lat 37.7642828
 long -122.4217504
 download 349
 upload 398
 tester breck
-
 
 name Dandelion
 lat 37.76569754259909
@@ -206,14 +186,12 @@ download 40
 upload 38
 tester breck
 
-
 name Secret Spot
 lat 21.2792701
 long -157.8263048
 download 13
 upload 6
 tester jsalsman
-
 
 name Secret Spot
 lat 21.2792842
@@ -222,14 +200,12 @@ download 10
 upload 0.1
 tester jsalsman
 
-
 name Edge and Node House of Web 3
 lat 37.80081673074809
 long -122.4585698489644
 download 86
 upload 17
 tester breck
-
 
 name Equator Coffee
 lat 37.8078061
@@ -238,14 +214,12 @@ download 20
 upload 5
 tester breck
 
-
 name Starbucks
 lat 37.79699089697419
 long -122.39822220460087
 download 9
 upload 3
 tester breck
-
 
 name Hyatt
 lat 37.79438070637101
@@ -254,14 +228,12 @@ download 2
 upload 4
 tester breck
 
-
 name Delah Coffee
 lat 37.7810632
 long -122.4002497
 download 168
 upload 170
 tester breck
-
 
 name McDonald's
 lat 37.6065203
@@ -270,14 +242,12 @@ download 293
 upload 290
 tester breck
 
-
 name Saluhall
 lat 37.7828385
 long -122.4092088
 download 175
 upload 136
 tester breck
-
 
 name Peets
 lat 37.7713457178786
@@ -286,14 +256,12 @@ download 12
 upload 3
 tester breck
 
-
 name Starbucks
 lat 37.7632836
 long -122.4099042
 download 11
 upload 4
 tester breck
-
 
 name Andytown
 lat 37.763993768418196
@@ -302,14 +270,12 @@ download 7
 upload 5
 tester breck
 
-
 name Haus
 lat 37.7527923
 long -122.4138023
 download 1
 upload 1
 tester breck
-
 
 name Temo's
 lat 37.7526981
@@ -318,14 +284,12 @@ download 239
 upload 19
 tester breck
 
-
 name L's Cafe
 lat 37.7526783
 long -122.40959
 download 72
 upload 51
 tester breck
-
 
 name Ikon Coffee
 lat 37.7577732
@@ -334,14 +298,12 @@ download 21
 upload 4
 tester breck
 
-
 name Caltrain
 lat 37.77629573892393
 long -122.39484531479059
 download 299
 upload 295
 tester breck
-
 
 name GitHub
 lat 37.7824545
@@ -350,14 +312,12 @@ download 69
 upload 46
 tester breck
 
-
 name SF Homebrew Crypto Club
 lat 37.7716735
 long -122.4131971
 download 66
 upload 15
 tester breck
-
 
 name WeWork Guest
 lat 37.7949989
@@ -366,14 +326,12 @@ download 53
 upload 51
 tester breck
 
-
 name Peet's
 lat 37.79461418980709
 long -122.39894028368151
 download 19
 upload 7
 tester breck
-
 
 name Four Seasons
 lat 37.792540356696705
@@ -382,14 +340,12 @@ download 48
 upload 30
 tester breck
 
-
 name Starbucks
 lat 37.78937895706318
 long -122.40698735352566
 download 10
 upload 3
 tester breck
-
 
 name McDonalds
 lat 37.78938336471439
@@ -398,14 +354,12 @@ download 40
 upload 38
 tester breck
 
-
 name Marriott Union Square
 lat 37.7894099
 long -122.4084032
 download 143
 upload 53
 tester breck
-
 
 name Starbucks
 lat 37.60290356738425
@@ -414,14 +368,12 @@ download 9
 upload 3
 tester breck
 
-
 name Peet's
 lat 37.6015452
 long -122.3928027
 download 17
 upload 3
 tester breck
-
 
 name Safeway
 lat 37.60355571085978
@@ -430,14 +382,12 @@ download 27
 upload 2
 tester breck
 
-
 name SFO
 lat 37.61699311093693
 long -122.38389250079841
 download 201
 upload 157
 tester breck
-
 
 name LAX Wifi
 lat 33.94659545528131
@@ -446,14 +396,12 @@ download 29
 upload 83
 tester breck
 
-
 name Delta Sky Club
 lat 33.9454098
 long -118.4055553
 download 98
 upload 103
 tester breck
-
 
 name HNL Free Wifi
 lat 21.329383
@@ -462,14 +410,12 @@ download 93
 upload 13
 tester breck
 
-
 name Delta Sky Club
 lat 21.3316334
 long -157.9185754
 download 44
 upload 28
 tester breck
-
 
 name McDonald's
 lat 21.285187
@@ -478,14 +424,12 @@ download 175
 upload 70
 tester breck
 
-
 name Island Brew Coffeehouse
 lat 21.284062
 long -157.707187
 download 94
 upload 20
 tester breck
-
 
 name Hawaiʻi Kai Towne Center
 lat 21.283213
@@ -494,14 +438,12 @@ download 23
 upload 4
 tester breck
 
-
 name Starbucks
 lat 21.283313
 long -157.710797
 download 12
 upload 3
 tester breck
-
 
 name Island Brew Coffeehouse
 lat 21.2936287
@@ -510,14 +452,12 @@ download 230
 upload 3
 tester breck
 
-
 name Our Kaka'ako
 lat 21.2980939
 long -157.8622883
 download 95
 upload 37
 tester kevinlim
-
 
 name Morning Brew - Kaka'ako
 lat 21.297688
@@ -526,14 +466,12 @@ download 79
 upload 73
 tester kevinlim
 
-
 name Box Jelly
 lat 21.2928312
 long -157.8519111
 download 70
 upload 24
 tester breck
-
 
 name Ward Village
 lat 21.291979382020900
@@ -542,14 +480,12 @@ download 25
 upload 4
 tester breck
 
-
 name Wholefoods
 lat 21.2946436
 long -157.8524053
 download 79
 upload 10
 tester breck
-
 
 name Hiking Hawaii Cafe
 lat 21.285504409523900
@@ -558,14 +494,12 @@ download 160
 upload 17
 tester matt
 
-
 name Sheraton Waikiki
 lat 21.2768656
 long -157.8303232
 download 98
 upload 95
 tester matt
-
 
 name McDonald's
 lat 21.2853928
@@ -574,14 +508,12 @@ download 13
 upload 10
 tester breck
 
-
 name Starbucks
 lat 21.2777786
 long -157.833186
 download 9
 upload 4
 tester breck
-
 
 name Coconut Waikiki Hotel
 lat 21.28268755
@@ -590,14 +522,12 @@ download 26
 upload 4
 tester breck
 
-
 name McDonald's
 lat 21.276131312101300
 long -157.8257973665040
 download 57
 upload 96
 tester breck
-
 
 name McDonald's
 lat 21.28046355
@@ -606,14 +536,12 @@ download 17
 upload 1
 tester breck
 
-
 name Starbucks
 lat 21.2796028
 long -157.8266621
 download 11
 upload 4
 tester breck
-
 
 name Hula Grill Waikiki
 lat 21.27715
@@ -622,14 +550,12 @@ download 23
 upload 4
 tester breck
 
-
 name Stay Hotel Waikiki
 lat 21.276332500000000
 long -157.82445297298300
 download 3
 upload 2
 tester breck
-
 
 name Kai Coffee @ Hyatt Regency
 lat 21.276067000000000
@@ -638,14 +564,12 @@ download 14
 upload 9
 tester breck
 
-
 name McDonald's
 lat 21.2746455
 long -157.8242588
 download 237
 upload 96
 tester breck
-
 
 name Starbucks
 lat 21.2719973
@@ -654,14 +578,12 @@ download 13
 upload 2
 tester breck
 
-
 name Aloh Cafe
 lat 21.280457
 long -157.82671250000000
 download 60
 upload 32
 tester matt
-
 
 name The Beach Waikiki Hostel
 lat 21.27230241748230
@@ -670,14 +592,12 @@ download 12
 upload 4
 tester matt
 
-
 name Marriott Courtyard Waikiki Beach
 lat 21.28155615
 long -157.82727085
 download 30
 upload 31
 tester matt
-
 
 name Marriott Renaissance Honolulu Hotel & Spa
 lat 21.293756538904200
@@ -686,14 +606,12 @@ download 19
 upload 17
 tester matt
 
-
 name Marriott Vacation Club
 lat 21.328941
 long -158.118743
 download 14
 upload 13
 tester matt
-
 
 name Seaside Hawaiian Hostel
 lat 21.280769222222200
