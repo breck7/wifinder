@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Target
+lat 21.278819719160904
+long -157.82583854224998
+download 18
+upload 8
+tester breck
+
 name Waikiki Market
 lat 21.278273009692022
 long -157.82479275829294
