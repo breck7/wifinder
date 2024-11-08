@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Waikiki Market
+lat 21.278273009692022
+long -157.82479275829294
+download 9
+upload 4
+tester breck
+
 name Aqua Aloha
 lat 21.279035404568113
 long -157.82342564147277
