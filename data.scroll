@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Aqua Aloha
+lat 21.279035404568113
+long -157.82342564147277
+download 13
+upload 8
+tester breck
+
 name Surfers Coffee
 lat 21.4949767
 long -158.0295038
