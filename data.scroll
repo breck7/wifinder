@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Kakaako Cafe
+lat 21.3007226
+long -157.8557122
+download 16
+upload 24
+tester breck
+
 name Starbucks
 lat 21.30756614389533
 long -157.86065854465224
