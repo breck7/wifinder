@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Foodland
+lat 21.29217376088141
+long -157.84716721789027
+download 27
+upload 9
+tester breck
+
 name Kakaako Cafe
 lat 21.3007226
 long -157.8557122
