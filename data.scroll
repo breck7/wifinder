@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Central Pacific Bank
+lat 21.307573255732034
+long -157.8607080075103
+download 7
+upload 11
+tester breck
+
 name Target
 lat 21.278819719160904
 long -157.82583854224998
