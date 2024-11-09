@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Ala Moana Hotel
+lat 21.290171966645268
+long -157.83985346692677
+download 58
+upload 2
+tester breck
+
 name Barnes and Noble
 lat 21.291299773600453
 long -157.84247621419576
