@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Royal Hawaiian Center
+lat 21.27805953191319
+long -157.82835828926363
+download 23
+upload 4
+tester breck
+
 name Denny's
 lat 21.2784592
 long -157.8315482
