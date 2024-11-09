@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Honolulu Coffee
+lat 21.286342417050236
+long -157.840158967112
+download 37
+upload 37
+tester breck
+
 name Ala Moana Hotel
 lat 21.290171966645268
 long -157.83985346692677
