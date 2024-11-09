@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Barnes and Noble
+lat 21.291299773600453
+long -157.84247621419576
+download 5
+upload 1
+tester breck
+
 name Foodland
 lat 21.29217376088141
 long -157.84716721789027
