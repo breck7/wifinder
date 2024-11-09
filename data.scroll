@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Outrigger
+lat 21.278558868514164
+long -157.83235132384496
+download 5
+upload 3
+tester breck
+
 name Honolulu Coffee
 lat 21.286342417050236
 long -157.840158967112
