@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name 
+lat 49.288914952511256
+long -123.04298084664146
+download 
+upload 
+tester 
+
 name Kakaako Cafe
 lat 21.3007226
 long -157.8557122
