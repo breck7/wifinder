@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Starbucks
+lat 21.30756614389533
+long -157.86065854465224
+download 12
+upload 4
+tester breck
+
 name Central Pacific Bank
 lat 21.307573255732034
 long -157.8607080075103
