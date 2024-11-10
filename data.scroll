@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Polynesian Hostel Beach Club
+lat 21.2723115
+long -157.8214705
+download 55
+upload 10
+tester breck
+
 name Sheraton Princess
 lat 21.2774905
 long -157.8261179
