@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Knots Coffee Roasters
+lat 21.272038
+long -157.8210867
+download 13
+upload 7
+tester breck
+
 name Royal Hawaiian Center
 lat 21.27805953191319
 long -157.82835828926363
