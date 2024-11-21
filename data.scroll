@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Kopiku Coffee
+lat 37.8009905
+long -122.4253704
+download 50
+upload 40
+tester breck
+
 name Peets
 lat 37.78143958113662
 long -122.42049033402779
