@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name San Francisco Public Library
+lat 37.7790549
+long -122.41601
+download 140
+upload 101
+tester breck
+
 name Turtle Bay
 lat 21.7052435
 long -157.998366
