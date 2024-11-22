@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Haraz Coffee
+lat 37.78816544489877
+long -122.42346293424697
+download 41
+upload 20
+tester breck
+
 name The Interval
 lat 37.80658666276493
 long -122.43207422001989
