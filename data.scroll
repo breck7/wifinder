@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name The Interval
+lat 37.80658666276493
+long -122.43207422001989
+download 32
+upload 32
+tester breck
+
 name Kopiku Coffee
 lat 37.8009905
 long -122.4253704
