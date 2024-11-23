@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Left Bank
+lat 37.79425867696447
+long -122.2747518238091
+download 5
+upload 1
+tester breck
+
 name Wholefoods
 lat 37.7901009
 long -122.4230419
