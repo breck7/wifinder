@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Starbucks
+lat 37.7859181
+long -122.4211365
+download 13
+upload 11
+tester breck
+
 name Haraz Coffee
 lat 37.78816544489877
 long -122.42346293424697
