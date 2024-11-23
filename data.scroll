@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Wholefoods
+lat 37.7901009
+long -122.4230419
+download 50
+upload 57
+tester breck
+
 name Starbucks
 lat 37.7859181
 long -122.4211365
