@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Peet's
+lat 37.7784306
+long -122.2769065
+download 21
+upload 6
+tester breck
+
 name Left Bank
 lat 37.79425867696447
 long -122.2747518238091
