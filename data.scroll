@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name McDonalds
+lat 37.77173564299396
+long -122.27605341467464
+download 81
+upload 16
+tester breck
+
 name Peet's
 lat 37.7784306
 long -122.2769065
