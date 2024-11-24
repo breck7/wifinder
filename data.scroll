@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name USS Hornet
+lat 37.7726533
+long -122.303377
+download 1
+upload 1
+tester breck
+
 name McDonalds
 lat 37.77173564299396
 long -122.27605341467464
