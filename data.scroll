@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name SFO
+lat 37.6161694
+long -122.3895568
+download 143
+upload 169
+tester breck
+
 name Pancho Villa
 lat 37.7649677230864
 long -122.42108033718189
