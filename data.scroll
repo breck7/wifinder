@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name LAX Wifi
+lat 33.9357803
+long -118.404615
+download 30
+upload 76
+tester breck
+
 name Hyatt Regency
 lat 37.5940193896301
 long -122.36528265579058
