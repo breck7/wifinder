@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Hyatt Regency
+lat 37.5940193896301
+long -122.36528265579058
+download 54
+upload 36
+tester breck
+
 name SFO
 lat 37.6161694
 long -122.3895568
