@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Island Brew
+lat 21.291953177568292
+long -157.84570465268646
+download 75
+upload 90
+tester breck
+
 name Starbucks
 lat 21.29285389695125
 long -157.84494632611583
