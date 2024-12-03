@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Macys
+lat 21.29056455871551
+long -157.84202592355044
+download 4
+upload 3
+tester breck
+
 name Nordstrom EBar
 lat 21.29241968716011
 long -157.84639317866265
