@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Nordstrom EBar
+lat 21.29241968716011
+long -157.84639317866265
+download 75
+upload 21
+tester breck
+
 name Island Brew
 lat 21.291953177568292
 long -157.84570465268646
