@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Starbucks
+lat 21.29285389695125
+long -157.84494632611583
+download 3
+upload 4
+tester breck
+
 name LAX Wifi
 lat 33.9357803
 long -118.404615
