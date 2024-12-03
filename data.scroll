@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Lanai
+lat 21.29093012685027
+long -157.84177257144543
+download 8
+upload 4
+tester breck
+
 name Macys
 lat 21.29056455871551
 long -157.84202592355044
