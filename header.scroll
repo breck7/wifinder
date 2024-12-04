@@ -1,3 +1,4 @@
+importOnly
 baseUrl https://wifinder.wiki/
 buildHtml
 favicon favicon.png
