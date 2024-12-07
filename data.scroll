@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Wendys
+lat 21.495447331924655
+long -158.0293791874666
+download 18
+upload 8
+tester breck
+
 name 
 lat 
 long 
