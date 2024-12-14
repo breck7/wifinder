@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Apple Store
+lat 37.78826777427602
+long -122.40723747299204
+download 81
+upload 77
+tester breck
+
 name Wendys
 lat 21.495447331924655
 long -158.0293791874666
