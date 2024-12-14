@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Peets
+lat 37.79657094884253
+long -122.42190330884763
+download 18
+upload 4
+tester breck
+
 name UpForDayz
 lat 37.7933273
 long -122.4214276
