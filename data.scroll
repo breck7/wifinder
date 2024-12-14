@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Gusto
+lat 37.789579380002614
+long -122.41371646200402
+download 150
+upload 38
+tester breck
+
 name Apple Store
 lat 37.78826777427602
 long -122.40723747299204
