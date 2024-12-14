@@ -4,6 +4,13 @@ data.parsers
 
 // Put new tests up top
 
+name Moka
+lat 37.791686524535365
+long -122.42094594337294
+download 90
+upload 12
+tester breck
+
 name Gusto
 lat 37.789579380002614
 long -122.41371646200402
