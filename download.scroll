@@ -8,6 +8,8 @@ Download all speed tests as: JSON | CSV | TSV
  link data.csv CSV
  link data.tsv TSV
 
+# Metadata
+
 tableSearch
 measures.csv
  select name values coverage question example type
