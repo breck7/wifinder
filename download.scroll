@@ -12,6 +12,7 @@ JSON | CSV | TSV
 
 tableSearch
 measures.csv
+ select name values coverage question example type
  printTable
 
 footer.scroll
