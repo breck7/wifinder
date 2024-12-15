@@ -8,6 +8,9 @@ Download all speed tests as: JSON | CSV | TSV
  link data.csv CSV
  link data.tsv TSV
 
+Analyze this data using TryScroll
+ https://try.scroll.pub/#scroll%0A%20tableSearch%0A%20%23%20WiFinder%20Data%20Analysis%0A%20%0A%20theme%20gazette%0A%20https%3A%2F%2Fwifinder.wiki%2Fdata.csv%0A%20%20summarize%0A%20%20%20printTable%0A%20%20%23%20Download%20vs%20Upload%20Speed%0A%20%20scatterplot%0A%20%20%20x%20download%0A%20%20%20y%20upload%0A%20%20%20label%20name%0A%20%20%20symbol%20tester%0A%20%20%23%20Geolocations%0A%20%20scatterplot%0A%20%20%20x%20long%0A%20%20%20y%20lat%0A%20%20%20fill%20download TryScroll
+
 # Measure Data
 
 tableSearch
