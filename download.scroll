@@ -1,17 +1,11 @@
-title About WiFinder
+title Download WiFinder Data
 
 header.scroll
 container 500px
 
-WiFinder was created by two frequent travelers over our shared love for cafes with great wifi.
-
-Wifi was invented in Hawai'i so it is fitting that WiFinder was created in Hawai'i too.
- https://pldb.io/concepts/alohanet.html invented in Hawai'i
-
-WiFinder is a joint creation of Cowork Coffee founder Matt Eeles and Scroll founder Breck Yunits.
- https://coworkcoffee.com/ Cowork Coffee
- https://www.linkedin.com/in/mattheweeles/ Matt Eeles
- https://scroll.pub/ Scroll
- https://twitter.com/breckyunits Breck Yunits
+JSON | CSV | TSV
+ link data.json JSON
+ link data.csv CSV
+ link data.tsv TSV
 
 footer.scroll
