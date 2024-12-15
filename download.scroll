@@ -8,4 +8,7 @@ JSON | CSV | TSV
  link data.csv CSV
  link data.tsv TSV
 
+meaures.json
+ printTable
+
 footer.scroll
