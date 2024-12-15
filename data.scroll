@@ -1,4 +1,5 @@
 buildConcepts data.json data.csv data.tsv
+buildMeasures measures.json
 
 data.parsers
 
