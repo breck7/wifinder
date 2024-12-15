@@ -3,6 +3,8 @@ title Download WiFinder Data
 header.scroll
 container 500px
 
+Download all the measurements as:
+
 JSON | CSV | TSV
  link data.json JSON
  link data.csv CSV
