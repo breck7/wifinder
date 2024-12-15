@@ -3,6 +3,13 @@ buildMeasures measures.json measures.csv measures.tsv
 
 data.parsers
 
+
+name The Coffee Berry
+lat 37.8014222
+long -122.4249937
+download 24
+upload 6
+tester breck
 // Put new tests up top
 
 name Starbucks
