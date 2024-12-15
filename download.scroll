@@ -10,7 +10,7 @@ JSON | CSV | TSV
  link data.csv CSV
  link data.tsv TSV
 
-
+tableSearch
 measures.csv
  printTable
 
