@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name San Francisco Public Library Mission Bay
+lat 37.7753941
+long -122.3930725
+download 328
+upload 62
+tester breck
+
 name Philz Coffee
 lat 37.775669528045945
 long -122.39352739100818
