@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Philz
+lat 37.76739
+long -122.3889827
+download 26
+upload 5
+tester breck
+
 name Caffe Central
 lat 37.76651554301294
 long -122.3890636075024
