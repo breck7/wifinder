@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Starbucks
+lat 37.77121345941035
+long -122.38936122885299
+download 12
+upload 11
+tester breck
+
 name Philz
 lat 37.76739
 long -122.3889827
