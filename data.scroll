@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name SFMOMA
+lat 37.7858003
+long -122.4008622
+download 2
+upload 3
+tester breck
+
 name San Francisco Public Library Mission Bay
 lat 37.7753941
 long -122.3930725
