@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Caffe Central
+lat 37.76651554301294
+long -122.3890636075024
+download 19
+upload 15
+tester breck
+
 name Wooly Pig
 lat 37.7606356
 long -122.388348
