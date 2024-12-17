@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name CoffeeShop
+lat 37.7579733
+long -122.3904079
+download 126
+upload 246
+tester breck
+
 name Rose Pak Station
 lat 37.79472351
 long -122.40810394
