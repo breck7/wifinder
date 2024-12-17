@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Rose Pak Station
+lat 37.79472351
+long -122.40810394
+download 127
+upload 85
+tester breck
+
 name The Coffee Berry
 lat 37.8014222
 long -122.4249937
