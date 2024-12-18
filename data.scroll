@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Peets
+lat 37.78636404014725
+long -122.40507123224299
+download 7
+upload 1
+tester breck
+
 name SFMOMA
 lat 37.7858003
 long -122.4008622
