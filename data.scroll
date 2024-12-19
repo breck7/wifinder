@@ -5,6 +5,13 @@ data.parsers
 
 
 name Peets
+lat 37.80067682626241
+long -122.4378880382802
+download 16
+upload 3
+tester breck
+
+name Peets
 lat 37.78636404014725
 long -122.40507123224299
 download 7
