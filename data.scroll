@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Starbucks
+lat 37.7859444
+long -122.4398126
+download 9
+upload 3
+tester breck
+
 name Flywheel Coffee
 lat 37.769689
 long -122.4533474
