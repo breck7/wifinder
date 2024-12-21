@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Flywheel Coffee
+lat 37.769689
+long -122.4533474
+download 17
+upload 4
+tester breck
+
 name Whole Foods
 lat 37.76952679211822
 long -122.45328055697682
