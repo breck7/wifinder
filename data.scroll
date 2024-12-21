@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Whole Foods
+lat 37.76952679211822
+long -122.45328055697682
+download 28
+upload 48
+tester breck
+
 name Peets
 lat 37.80067682626241
 long -122.4378880382802
