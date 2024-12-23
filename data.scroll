@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Chestnut Coffee Roastery
+lat 37.7999618
+long -122.4417843
+download 52
+upload 31
+tester breck
+
 name Starbucks
 lat 37.7859444
 long -122.4398126
