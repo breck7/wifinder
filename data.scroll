@@ -3,13 +3,13 @@ buildMeasures measures.json measures.csv measures.tsv
 
 data.parsers
 
-
 name Mel's
 lat 37.7995474
 long -122.4371366
 download 59
 upload 59
 tester breck
+
 name Brecks
 lat 37.7833084
 long -122.4617939
