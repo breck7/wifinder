@@ -1,5 +1,3 @@
-importOnly
-
 nameParser
  description What is the name of the coffee shop?
  extends abstractIdParser
