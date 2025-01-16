@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Wendy's
+lat 37.6521506
+long -122.4019952
+download 28
+upload 44
+tester breck
+
 name Starbucks
 lat 37.50647967583595
 long -122.26114072634795
