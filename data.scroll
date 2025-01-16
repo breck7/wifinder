@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Peets
+lat 37.505319750460956
+long -122.25956720643686
+download 10
+upload 4
+tester breck
+
 name Marsha's
 lat 37.5081677
 long -122.2527167
