@@ -7,7 +7,7 @@ container 600px
 
 br 2
 center
-button Back to home
+scrollButton Back to home
  index.html
 br 4
 
