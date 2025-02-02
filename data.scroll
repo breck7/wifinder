@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Pizza Hut
+lat 21.497159655264284
+long -158.02575474726638
+download 123
+upload 6
+tester breck
+
 name Denny's
 lat 37.6502074
 long -122.4078922
