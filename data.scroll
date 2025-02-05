@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Avotoasty
+lat 37.797978427599794
+long -122.42889955931881
+download 143
+upload 105
+tester breck
+
 name Pizza Hut
 lat 21.497159655264284
 long -158.02575474726638
