@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name neon
+lat 37.797596106251746
+long -122.43180588732922
+download 444
+upload 367
+tester breck
+
 name Avotoasty
 lat 37.797978427599794
 long -122.42889955931881
