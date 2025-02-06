@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Union Street Coffee
+lat 37.7970318
+long -122.4353219
+download 2
+upload 2
+tester breck
+
 name neon
 lat 37.797596106251746
 long -122.43180588732922
