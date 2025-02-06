@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Telve
+lat 37.7971101
+long -122.4348059
+download 325
+upload 28
+tester breck
+
 name Union Street Coffee
 lat 37.7970318
 long -122.4353219
