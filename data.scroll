@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Diamond Coffee
+lat 37.7828356
+long -122.4701958
+download 52
+upload 16
+tester breck
+
 name Telve
 lat 37.7971101
 long -122.4348059
