@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Internet Archive
+lat 37.7823321
+long -122.4716172
+download 22
+upload 14
+tester breck
+
 name Diamond Coffee
 lat 37.7828356
 long -122.4701958
