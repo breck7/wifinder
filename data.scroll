@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name San Jose Airport
+lat 37.36966602158916
+long -121.92932413512496
+download 179
+upload 107
+tester breck
+
 name Internet Archive
 lat 37.7823321
 long -122.4716172
