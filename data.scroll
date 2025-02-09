@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Boston Logan Airport
+lat 42.3646928547037
+long -71.02112806752719
+download 19
+upload 93 
+tester breck
+
 name San Jose Airport
 lat 37.36966602158916
 long -121.92932413512496
