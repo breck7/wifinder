@@ -4,6 +4,13 @@ buildMeasures measures.json measures.csv measures.tsv
 data.parsers
 
 
+name Three Fins
+lat 41.6666971
+long -70.1609582
+download 62
+upload 22
+tester breck
+
 name Boston Logan Airport
 lat 42.3646928547037
 long -71.02112806752719
