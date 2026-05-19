@@ -1,5 +1,6 @@
 importOnly
-baseUrl https://wifinder.wiki/
+// baseUrl https://wifinder.wiki/
+baseUrl https://breck7.github.io/wifinder/
 buildHtml
 favicon favicon.png
 openGraphImage og.png
