@@ -1,0 +1,67 @@
+[
+  {
+    "Name": "name",
+    "Values": 168,
+    "Coverage": "100%",
+    "Question": "What is the name of the coffee shop?",
+    "Example": "Three Fins",
+    "Type": "string",
+    "SortIndex": 1.001,
+    "IsComputed": false,
+    "IsRequired": true,
+    "IsConceptDelimiter": true
+  },
+  {
+    "Name": "lat",
+    "Values": 168,
+    "Coverage": "100%",
+    "Question": "What is the latitude of the location?",
+    "Example": "41.6666971",
+    "Type": "number",
+    "SortIndex": 1.005,
+    "IsComputed": false
+  },
+  {
+    "Name": "long",
+    "Values": 168,
+    "Coverage": "100%",
+    "Question": "What is the longitude of the location?",
+    "Example": "-70.1609582",
+    "Type": "number",
+    "SortIndex": 1.006,
+    "IsComputed": false
+  },
+  {
+    "Name": "download",
+    "Values": 168,
+    "Coverage": "100%",
+    "Question": "What is the download speed in Mbps?",
+    "Example": "62",
+    "Type": "number",
+    "SortIndex": 1.015,
+    "IsComputed": false,
+    "IsRequired": true
+  },
+  {
+    "Name": "upload",
+    "Values": 168,
+    "Coverage": "100%",
+    "Question": "What is the upload speed in Mbps?",
+    "Example": "22",
+    "Type": "number",
+    "SortIndex": 1.02,
+    "IsComputed": false,
+    "IsRequired": true
+  },
+  {
+    "Name": "tester",
+    "Values": 168,
+    "Coverage": "100%",
+    "Question": "Who tested it?",
+    "Example": "breck",
+    "Type": "string",
+    "SortIndex": 1.902,
+    "IsComputed": false,
+    "IsRequired": true
+  }
+]

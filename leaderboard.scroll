@@ -1,0 +1,20 @@
+title WiFinder Leaderboard
+
+header.scroll
+container 500px
+
+# Most Tests
+
+data.csv
+ groupBy tester
+  orderBy -count
+   printTable
+
+# Fastest Finds
+data.csv
+ orderBy -download
+  select name download tester
+   limit 0 10
+    printTable
+
+footer.scroll

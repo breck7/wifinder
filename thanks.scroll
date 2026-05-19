@@ -1,0 +1,14 @@
+title WiFinder - Thank you!
+
+header.scroll
+container 600px
+
+> Test added successfully! Thank you!
+
+br 2
+center
+scrollButton Back to home
+ index.html
+br 4
+
+footer.scroll

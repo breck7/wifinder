@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<link rel="stylesheet" href=".leaflet.css">
+<script src=".leaflet.js"></script>
+<script src=".scrollLibs.js"></script>
+
+<div id="map5" style="height: 500px;"></div>
+<script>
+ {
+    if (!window.maps) window.maps = {}
+     const moveToMyLocation = () => {
+      if (!navigator.geolocation) return
+      navigator.geolocation.getCurrentPosition((position) => {
+          const { latitude, longitude } = position.coords
+          window.maps.map5.setView([latitude, longitude])
+          L.circleMarker([latitude, longitude], {
+              fillOpacity: 0.8,
+              radius: 20,
+              weight: 4
+          })
+          .addTo(window.maps.map5)
+      }, () => {})
+    }
+  const lat = 37.8
+  const long = 4
+  if (false){
+      moveToMyLocation()
+  }
+  const zoomLevel = 4
+  const hover = '<b>{title}</b><br>{description}'
+  const template = {}
+  const points = []
+  window.maps.map5 = L.map("map5").setView([lat, long], zoomLevel)
+  const map = window.maps.map5
+  const tileOptions = {
+  "default": {
+      baseLayer: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      attribution: '<a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
+  },
+  light: {
+      baseLayer: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+      attribution: '<a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors <a href="https://carto.com/    attributions">CARTO</a>'
+  },
+  }
+  const {baseLayer, attribution} = tileOptions.default
+  L.tileLayer(baseLayer, {
+  attribution,
+  maxZoom: 19
+  }).addTo(map);
+  points.forEach(point => {
+   L.circleMarker([point.lat, point.long], {...template, ...Object.fromEntries(
+          Object.entries(point).filter(([key, value]) => value !== null)
+      )})
+    .addTo(map)
+    .bindPopup(new Particle(point).evalTemplateString(hover))
+  })
+ }
+</script>
+</body>
+</html>

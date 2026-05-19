@@ -1,0 +1,9 @@
+Server,Location,Ping (ms),Download (Mbps),Upload (Mbps),ISP,IP Address
+Servpac Inc.,"Honolulu, HI",12,59.65,32.31,Spectrum,98.147.40.66
+Servpac Inc.,"Honolulu, HI",15,12.44,4.03,Spectrum,24.165.17.24
+Hawaiian Telcom,"Honolulu, HI",5,1.68,2.38,Lumen,66.193.145.29
+Hawaiian Telcom,"Honolulu, HI",7,20.47,20.5,Lumen,66.193.145.29
+Spectrum,"Mililani, HI",53,18.8,17.01,Spectrum,98.147.4.164
+Airlink Internet Inc.,"Los Angeles, CA",103,13.61,13.44,Spectrum Business,173.197.99.96
+Spectrum,"Mililani, HI",17,29.97,31.0,Spectrum,76.39.9.131
+Spectrum,"Mililani, HI",21,61.23,35.0,Spectrum,76.39.9.131

@@ -1,0 +1,7 @@
+Name,Values,Coverage,Question,Example,Type,Source,SortIndex,IsComputed,IsRequired,IsConceptDelimiter,Cue
+name,168,100%,What is the name of the coffee shop?,Three Fins,string,,1.001,false,true,true,
+lat,168,100%,What is the latitude of the location?,41.6666971,number,,1.005,false,,,
+long,168,100%,What is the longitude of the location?,-70.1609582,number,,1.006,false,,,
+download,168,100%,What is the download speed in Mbps?,62,number,,1.015,false,true,,
+upload,168,100%,What is the upload speed in Mbps?,22,number,,1.02,false,true,,
+tester,168,100%,Who tested it?,breck,string,,1.902,false,true,,

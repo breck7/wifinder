@@ -1,0 +1,33 @@
+nameParser
+ description What is the name of the coffee shop?
+ extends abstractIdParser
+ float sortIndex 1.001
+ boolean isMeasureRequired true
+
+downloadParser
+ description What is the download speed in Mbps?
+ extends abstractIntegerMeasureParser
+ float sortIndex 1.015
+ boolean isMeasureRequired true
+
+uploadParser
+ description What is the upload speed in Mbps?
+ extends abstractIntegerMeasureParser
+ float sortIndex 1.02
+ boolean isMeasureRequired true
+
+testerParser
+ description Who tested it?
+ extends abstractStringMeasureParser
+ float sortIndex 1.902
+ boolean isMeasureRequired true
+
+latParser
+ description What is the latitude of the location?
+ extends abstractFloatMeasureParser
+ float sortIndex 1.005
+
+longParser
+ description What is the longitude of the location?
+ extends abstractFloatMeasureParser
+ float sortIndex 1.006

@@ -1,0 +1,20 @@
+title WiFinder
+
+header.scroll
+container 960px
+
+data.csv
+ select name download upload tester lat long
+  orderBy -download
+   compose nameLink https://www.openstreetmap.org/?mlat={lat}&mlon={long}#map=19/{lat}/{long}
+    rank
+     select rank name nameLink download upload tester
+      printTable
+
+tableSearch
+
+expander Full table
+data.csv
+ printTable
+
+footer.scroll

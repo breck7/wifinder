@@ -1,0 +1,24 @@
+description Find fast wifi near you.
+title WiFinder
+
+header.scroll
+
+// This is the WiFinder homepage
+
+data.csv
+ select name lat long download upload tester
+  orderBy -download
+   rank
+    compose nameLink https://www.openstreetmap.org/?mlat={lat}&mlon={long}#map=19/{lat}/{long}
+     compute fillOpacity Math.max(.3, {download}/150)
+      map
+       lat 37.77629573892393
+       long -122.39484531479059
+       geolocate
+       height full
+       zoom 14
+       fillColor green
+       radius 15
+       tiles light
+       color transparent
+       hover <b><a href="{nameLink}">{name}</a> - #{rank}</b><br>Download: {download}<br>Upload: {upload}<br>Tester: {tester}
