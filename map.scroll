@@ -1,4 +1,5 @@
 buildHtml
 
+maps.parsers
 map
-// Hack to get map files until scroll fix
+// Leaflet/protomaps assets: committed (.leaflet.* / .protomaps-leaflet.min.js) + workflow fallback

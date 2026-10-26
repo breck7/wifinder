@@ -6,3 +6,8 @@
 *.tsv
 *.csv
 *.txt
+!.protomaps-leaflet.min.js
+!.leaflet.js
+!.leaflet.css
+!.pmtiles.js
+!.basemap.pmtiles.js

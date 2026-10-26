@@ -13,6 +13,16 @@ jobs:
       - name: Install and Build
         run: |
           npm install -g scroll-cli --production
+          EXT="$(npm root -g)/scroll-cli/external"
+          # Ensure Leaflet (normally copied by stock mapParser; our local maps.parsers cue override skips that)
+          if [ ! -f .leaflet.js ]; then cp "$EXT/.leaflet.js" .; fi
+          if [ ! -f .leaflet.css ]; then cp "$EXT/.leaflet.css" .; fi
+          if [ ! -f .scrollLibs.js ]; then cp "$EXT/.scrollLibs.js" .; fi
+          # Ensure local Protomaps Leaflet renderer (belt and suspenders)
+          if [ ! -f .protomaps-leaflet.min.js ]; then
+            curl -fsSL -o .protomaps-leaflet.min.js \
+              https://cdn.jsdelivr.net/npm/protomaps-leaflet@5.1.0/dist/protomaps-leaflet.js
+          fi
           scroll build
           # The line below is needed if you have *.html in your gitignore file
           rm .gitignore
