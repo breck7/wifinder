@@ -9,10 +9,10 @@ printTitle
 container
 
 Real time view
- /globe.html?folderName=wifinder.wiki
+ /globe.html?folderName=wifinder.breck.lol
 
 button Refresh
- link /summarizeRequests.htm?folderName=wifinder.wiki
+ link /summarizeRequests.htm?folderName=wifinder.breck.lol
  post
   // Anything
 
