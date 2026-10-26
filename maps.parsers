@@ -1,0 +1,133 @@
+pmtilesMapParser
+ cue map
+ latParser
+  atoms cueAtom floatAtom
+  cueFromId
+  single
+ longParser
+  atoms cueAtom floatAtom
+  cueFromId
+  single
+ tilesParser
+  atoms cueAtom tileOptionAtom
+  cueFromId
+  single
+ zoomParser
+  atoms cueAtom integerAtom
+  cueFromId
+  single
+ geolocateParser
+  description Geolocate user.
+  atoms cueAtom
+  cueFromId
+  single
+ radiusParser
+  atoms cueAtom floatAtom
+  cueFromId
+  single
+ fillOpacityParser
+  atoms cueAtom floatAtom
+  cueFromId
+  single
+ fillColorParser
+  atoms cueAtom colorAtom
+  cueFromId
+  single
+ colorParser
+  atoms cueAtom colorAtom
+  cueFromId
+  single
+ heightParser
+  atoms cueAtom floatAtom
+  cueFromId
+  single
+ hoverParser
+  atoms cueAtom
+  catchAllAtomType colorAtom
+  cueFromId
+  single
+ extends abstractTableVisualizationParser
+ description Map widget using embedded Protomaps PMTiles basemap (works on file://).
+ string copyFromExternal .leaflet.css .leaflet.js .pmtiles.js .protomaps-leaflet.min.js .basemap.pmtiles.js .scrollLibs.js
+ string requireOnce
+  <link rel="stylesheet" href=".leaflet.css">
+  <script src=".leaflet.js"></script>
+  <script src=".pmtiles.js"></script>
+  <script src=".protomaps-leaflet.min.js"></script>
+  <script src=".basemap.pmtiles.js"></script>
+  <script src=".scrollLibs.js"></script>
+ javascript
+  buildInstance() {
+   const height = this.get("height") || 500
+   const id = this._getUid()
+   const obj = this.toObject()
+   const template = {}
+   const style = height !== "full" ? `height: ${height}px;` : `height: 100%; position: fixed; z-index: -1; left: 0; top: 0; width: 100%;`
+   const strs = ["color", "fillColor"]
+   const nums = ["radius", "fillOpacity"]
+    strs.filter(i => obj[i]).forEach(i => template[i] = obj[i])
+    nums.filter(i => obj[i]).forEach(i => template[i] = parseFloat(obj[i]))
+    const mapId = `map${id}`
+   const tiles = this.get("tiles") || "default"
+   const flavor = tiles === "default" ? "dark" : "light"
+   return `<div id="${mapId}" style="${style}"></div>
+  <script>
+   {
+      if (!window.maps) window.maps = {}
+       const moveToMyLocation = () => {
+        if (!navigator.geolocation) return
+        navigator.geolocation.getCurrentPosition((position) => {
+            const { latitude, longitude } = position.coords
+            window.maps.${mapId}.setView([latitude, longitude])
+            L.circleMarker([latitude, longitude], {
+                fillOpacity: 0.8,
+                radius: 20,
+                weight: 4
+            })
+            .addTo(window.maps.${mapId})
+        }, () => {})
+      }
+    const lat = ${this.get("lat") ?? 37.8}
+    const long = ${this.get("long") ?? 4}
+    if (${this.has("geolocate")}){
+        moveToMyLocation()
+    }
+    const zoomLevel = ${this.get("zoom") ?? 4}
+    const hover = '${this.get("hover") || "<b>{title}</b><br>{description}"}'
+    const template = ${JSON.stringify(template)}
+    const points = ${JSON.stringify((this.parent.coreTable || []).filter(point => point.lat && point.long), undefined, 2)}
+    window.maps.${mapId} = L.map("map${id}").setView([lat, long], zoomLevel)
+    const map = window.maps.${mapId}
+    if (!window.__basemapPmtiles) {
+      const b64 = window.__BASEMAP_PMTILES_B64
+      const bin = atob(b64)
+      const bytes = new Uint8Array(bin.length)
+      for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i)
+      const source = {
+        getKey: () => "basemap",
+        getBytes: async (offset, length) => {
+          const slice = bytes.slice(offset, offset + length)
+          return { data: slice.buffer.slice(slice.byteOffset, slice.byteOffset + slice.byteLength) }
+        }
+      }
+      window.__basemapPmtiles = new pmtiles.PMTiles(source)
+    }
+    const layer = protomapsL.leafletLayer({
+      url: window.__basemapPmtiles,
+      flavor: "${flavor}",
+      lang: "en",
+      attribution: '<a href="https://protomaps.com">Protomaps</a> © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+      maxDataZoom: 8,
+      maxZoom: 19
+    })
+    layer.addTo(map)
+    points.forEach(point => {
+     L.circleMarker([point.lat, point.long], {...template, ...Object.fromEntries(
+            Object.entries(point).filter(([key, value]) => value !== null)
+        )})
+      .addTo(map)
+      .bindPopup(new Particle(point).evalTemplateString(hover))
+    })
+   }
+  </script>`
+  }

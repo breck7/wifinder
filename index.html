@@ -38,6 +38,9 @@ color: rgba(59,86,93,0.8);
 </div>
 <link rel="stylesheet" href=".leaflet.css">
 <script src=".leaflet.js"></script>
+<script src=".pmtiles.js"></script>
+<script src=".protomaps-leaflet.min.js"></script>
+<script src=".basemap.pmtiles.js"></script>
 <script src=".scrollLibs.js"></script>
 
 <div id="map2" style="height: 100%; position: fixed; z-index: -1; left: 0; top: 0; width: 100%;"></div>
@@ -1917,21 +1920,29 @@ color: rgba(59,86,93,0.8);
 ]
   window.maps.map2 = L.map("map2").setView([lat, long], zoomLevel)
   const map = window.maps.map2
-  const tileOptions = {
-  "default": {
-      baseLayer: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-      attribution: '<a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-  },
-  light: {
-      baseLayer: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-      attribution: '<a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors <a href="https://carto.com/    attributions">CARTO</a>'
-  },
+  if (!window.__basemapPmtiles) {
+    const b64 = window.__BASEMAP_PMTILES_B64
+    const bin = atob(b64)
+    const bytes = new Uint8Array(bin.length)
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i)
+    const source = {
+      getKey: () => "basemap",
+      getBytes: async (offset, length) => {
+        const slice = bytes.slice(offset, offset + length)
+        return { data: slice.buffer.slice(slice.byteOffset, slice.byteOffset + slice.byteLength) }
+      }
+    }
+    window.__basemapPmtiles = new pmtiles.PMTiles(source)
   }
-  const {baseLayer, attribution} = tileOptions.light
-  L.tileLayer(baseLayer, {
-  attribution,
-  maxZoom: 19
-  }).addTo(map);
+  const layer = protomapsL.leafletLayer({
+    url: window.__basemapPmtiles,
+    flavor: "light",
+    lang: "en",
+    attribution: '<a href="https://protomaps.com">Protomaps</a> © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+    maxDataZoom: 8,
+    maxZoom: 19
+  })
+  layer.addTo(map)
   points.forEach(point => {
    L.circleMarker([point.lat, point.long], {...template, ...Object.fromEntries(
           Object.entries(point).filter(([key, value]) => value !== null)

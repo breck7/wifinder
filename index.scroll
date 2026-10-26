@@ -3,6 +3,8 @@ title WiFinder
 
 header.scroll
 
+maps.parsers
+
 // This is the WiFinder homepage
 
 data.csv
