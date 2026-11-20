@@ -6,6 +6,7 @@
 <script src=".pmtiles.js"></script>
 <script src=".protomaps-leaflet.min.js"></script>
 <script src=".basemap.pmtiles.js"></script>
+<script src=".world-land.js"></script>
 <script src=".scrollLibs.js"></script>
 
 <div id="map5" style="height: 500px;"></div>
@@ -34,7 +35,7 @@
   const hover = '<b>{title}</b><br>{description}'
   const template = {}
   const points = []
-  window.maps.map5 = L.map("map5").setView([lat, long], zoomLevel)
+  window.maps.map5 = L.map("map5", { worldCopyJump: true, minZoom: 2 }).setView([lat, long], zoomLevel)
   const map = window.maps.map5
   if (!window.__basemapPmtiles) {
     const b64 = window.__BASEMAP_PMTILES_B64
@@ -50,14 +51,33 @@
     }
     window.__basemapPmtiles = new pmtiles.PMTiles(source)
   }
-  const layer = protomapsL.leafletLayer({
+  const flavorColors = {
+    light: { water: "#80deea", earth: "#e2dfda" },
+    dark: { water: "#31353f", earth: "#1f1f1f" }
+  }
+  const colors = flavorColors["dark"]
+  map.getContainer().style.background = colors.water
+  map.createPane("worldLand")
+  map.getPane("worldLand").style.zIndex = 150
+  const landStyle = { pane: "worldLand", interactive: false, style: { fillColor: colors.earth, fillOpacity: 1, color: colors.earth, weight: 0 } }
+  const shiftLng = (offset) => ({ coordsToLatLng: (c) => L.latLng(c[1], c[0] + offset) })
+  if (window.__WORLD_LAND) {
+    L.geoJSON(window.__WORLD_LAND, landStyle).addTo(map)
+    L.geoJSON(window.__WORLD_LAND, Object.assign({}, landStyle, shiftLng(-360))).addTo(map)
+    L.geoJSON(window.__WORLD_LAND, Object.assign({}, landStyle, shiftLng(360))).addTo(map)
+  }
+  const layerOptions = {
     url: window.__basemapPmtiles,
     flavor: "dark",
     lang: "en",
     attribution: '<a href="https://protomaps.com">Protomaps</a> © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-    maxDataZoom: 8,
     maxZoom: 19
-  })
+  }
+  const worldLayer = protomapsL.leafletLayer(Object.assign({}, layerOptions, { maxDataZoom: 0, maxZoom: 4, attribution: "" }))
+  worldLayer.backgroundColor = ""
+  worldLayer.addTo(map)
+  const layer = protomapsL.leafletLayer(Object.assign({}, layerOptions, { maxDataZoom: 8 }))
+  layer.backgroundColor = ""
   layer.addTo(map)
   points.forEach(point => {
    L.circleMarker([point.lat, point.long], {...template, ...Object.fromEntries(

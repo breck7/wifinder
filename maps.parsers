@@ -48,13 +48,14 @@ pmtilesMapParser
   single
  extends abstractTableVisualizationParser
  description Map widget using embedded Protomaps PMTiles basemap (works on file://).
- string copyFromExternal .leaflet.css .leaflet.js .pmtiles.js .protomaps-leaflet.min.js .basemap.pmtiles.js .scrollLibs.js
+ string copyFromExternal .leaflet.css .leaflet.js .pmtiles.js .protomaps-leaflet.min.js .basemap.pmtiles.js .world-land.js .scrollLibs.js
  string requireOnce
   <link rel="stylesheet" href=".leaflet.css">
   <script src=".leaflet.js"></script>
   <script src=".pmtiles.js"></script>
   <script src=".protomaps-leaflet.min.js"></script>
   <script src=".basemap.pmtiles.js"></script>
+  <script src=".world-land.js"></script>
   <script src=".scrollLibs.js"></script>
  javascript
   buildInstance() {
@@ -96,7 +97,7 @@ pmtilesMapParser
     const hover = '${this.get("hover") || "<b>{title}</b><br>{description}"}'
     const template = ${JSON.stringify(template)}
     const points = ${JSON.stringify((this.parent.coreTable || []).filter(point => point.lat && point.long), undefined, 2)}
-    window.maps.${mapId} = L.map("map${id}").setView([lat, long], zoomLevel)
+    window.maps.${mapId} = L.map("map${id}", { worldCopyJump: true, minZoom: 2 }).setView([lat, long], zoomLevel)
     const map = window.maps.${mapId}
     if (!window.__basemapPmtiles) {
       const b64 = window.__BASEMAP_PMTILES_B64
@@ -112,14 +113,33 @@ pmtilesMapParser
       }
       window.__basemapPmtiles = new pmtiles.PMTiles(source)
     }
-    const layer = protomapsL.leafletLayer({
+    const flavorColors = {
+      light: { water: "#80deea", earth: "#e2dfda" },
+      dark: { water: "#31353f", earth: "#1f1f1f" }
+    }
+    const colors = flavorColors["${flavor}"]
+    map.getContainer().style.background = colors.water
+    map.createPane("worldLand")
+    map.getPane("worldLand").style.zIndex = 150
+    const landStyle = { pane: "worldLand", interactive: false, style: { fillColor: colors.earth, fillOpacity: 1, color: colors.earth, weight: 0 } }
+    const shiftLng = (offset) => ({ coordsToLatLng: (c) => L.latLng(c[1], c[0] + offset) })
+    if (window.__WORLD_LAND) {
+      L.geoJSON(window.__WORLD_LAND, landStyle).addTo(map)
+      L.geoJSON(window.__WORLD_LAND, Object.assign({}, landStyle, shiftLng(-360))).addTo(map)
+      L.geoJSON(window.__WORLD_LAND, Object.assign({}, landStyle, shiftLng(360))).addTo(map)
+    }
+    const layerOptions = {
       url: window.__basemapPmtiles,
       flavor: "${flavor}",
       lang: "en",
       attribution: '<a href="https://protomaps.com">Protomaps</a> © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-      maxDataZoom: 8,
       maxZoom: 19
-    })
+    }
+    const worldLayer = protomapsL.leafletLayer(Object.assign({}, layerOptions, { maxDataZoom: 0, maxZoom: 4, attribution: "" }))
+    worldLayer.backgroundColor = ""
+    worldLayer.addTo(map)
+    const layer = protomapsL.leafletLayer(Object.assign({}, layerOptions, { maxDataZoom: 8 }))
+    layer.backgroundColor = ""
     layer.addTo(map)
     points.forEach(point => {
      L.circleMarker([point.lat, point.long], {...template, ...Object.fromEntries(
